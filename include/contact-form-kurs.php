@@ -2,7 +2,7 @@
 
 include "contact-form-handler.php";
 ?>
-<div class="form_contact_page_bg">
+<div class="form_contact_page_bg" style="background-image:none">
     <div class="page_content_wrap page_paddings_no">
         <div class="content_wrap ">
             <div class="content">
@@ -25,9 +25,9 @@ include "contact-form-handler.php";
                             
                                 ?>
                             </h2>
-                            <p>
+                            <h3>
                             Mer informasjon følger senere. Meld deg gjerne på mitt inspirasjonsbrev for jevnlige inspirsajonsdrypp og oppdateringer.
-                            </p>
+                            </h3>
                             <form data-formtype="form_1" method="post" action="kontakt.php">
                                 <input id="formtype" type="hidden" name="formtype" value="form_custom">
                                 <div class="sc_form_info">
@@ -44,7 +44,7 @@ include "contact-form-handler.php";
                                                 <input id="sc_form_email" type="text" name="email" placeholder="E-post">
                                                 
                                             </div>
-                                        </div>
+                                        </div> 
                                         
                                     </div>
                                 </div>

@@ -2915,6 +2915,7 @@ blockquote {
 	font-style: italic;
 	margin: 2em 2em 2em 4em;
 	padding: 1em 2.888em;
+	line-height: 50%;
 
 }
 blockquote, blockquote p {

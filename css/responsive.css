@@ -22,7 +22,10 @@
 	.cq-draggable-container {
 		padding-top: 240px !important;
 	}
+	.isotope_wrap .isotope_item {
 
+		min-height: 700px;
+	}
 	.cq-infobox {
 		height: 230px !important;
 		margin-left: -212px !important;
@@ -97,6 +100,10 @@ Apple iPod Touch (5th generation)
     }
 	.top_panel_wrap .logo_main {
 	
+	}
+	.isotope_wrap .isotope_item {
+
+		min-height: 300px;
 	}
 	/* Body sizes */
 	.body_style_boxed .page_wrap {		width:1060px; }
@@ -212,6 +219,10 @@ Apple iPod Touch (5th generation)
 	.post_info_item .post_info_posted{
 		display: none;
 	}
+	.isotope_wrap .isotope_item {
+
+		min-height: 300px;
+	}
 	/* Body sizes */
 	.body_style_boxed .page_wrap {		width:970px; }
 	.slider_boxed, .content_wrap, .content_container {	width:910px; }
@@ -262,6 +273,10 @@ Apple iPod Touch (5th generation)
 @media (min-width: 1024px) and (max-width: 1135px) {
 	.post_info{
 		display: none !important;
+	}
+	.isotope_wrap .isotope_item {
+
+		min-height: 300px;
 	}
 	.img_cover_about_me {
 	  height: 700px;
@@ -329,6 +344,10 @@ Apple iPod Touch (5th generation)
 	}
 	.two_column{
 		width:100%;
+	}
+	.isotope_wrap .isotope_item {
+
+		min-height: 300px;
 	}
 	/* Body sizes */
 	.body_style_boxed .page_wrap {		width:100%; }
@@ -961,6 +980,7 @@ Samsung Galaxy
 		padding-right:20px;
 		padding-bottom:20px;
 		min-width:50%;
+		min-height: 300px;
 	}
 
 	.sc_scroll_horizontal .sc_blogger .isotope_item,
@@ -1024,6 +1044,10 @@ Samsung Galaxy
 @media (min-width: 480px) and (max-width: 767px) {
 	body.customization .sc_column_item_3{
 		margin-left: 25% !important;
+	}
+	.isotope_wrap .isotope_item {
+	
+		min-height: 300px;
 	}
 	.two_column{
 		width:100%;
@@ -1681,6 +1705,10 @@ Very common low res
 		line-height: 18px;
 		width: 20px;
 	}
+	.isotope_wrap .isotope_item {
+	
+		min-height: 700px;
+	}
 	.two_column{
 		width:100%;
 	}
@@ -1737,6 +1765,10 @@ Very common low res
 		padding-left: 0.75em;
 		padding-right: 0.75em;
 	}
+	.isotope_wrap .isotope_item {
+	
+		min-height: 300px;
+	}
 	.menu_main_nav > li.menu-item-has-children > a {
 		padding-right: 1.5em;
 	}
@@ -1749,6 +1781,7 @@ Very common low res
 	h1 {
 		margin-top: 1em;
 	}
+
 	.sidebar_inner aside.widget {
 		padding: 2em 2.333em 1px;
 	}
@@ -3663,30 +3696,6 @@ Very common low res
 	    color: #fff;
 	    font-size: 14px;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

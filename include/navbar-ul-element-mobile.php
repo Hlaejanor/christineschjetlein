@@ -13,11 +13,12 @@
                 <a href="psykoterapi.php">Psykoterapi</a>
             </li>
             <li class="menu-item">
-                <a href="psykoterapi.php#parterapi">Parterapi</a>
-            </li>
-            <li class="menu-item">
                 <a href="coaching.php">Coaching</a>
             </li>
+            <li class="menu-item">
+                <a href="psykoterapi.php#parterapi">Parterapi</a>
+            </li>
+           
            
         </ul>
     </li>
