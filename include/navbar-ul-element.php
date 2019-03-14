@@ -13,11 +13,12 @@
                 <a href="psykoterapi.php">Psykoterapi</a>
             </li>
             <li class="menu-item">
-                <a href="coaching.php">Coaching</a>
-            </li>
-            <li class="menu-item">
                 <a href="psykoterapi.php#parterapi">Parterapi</a>
             </li>
+            <li class="menu-item">
+                <a href="coaching.php">Coaching</a>
+            </li>
+         
         </ul>
     </li>
     <li class="menu-item ">
@@ -40,7 +41,7 @@
                 <a href="innhold.php?type=blog">Blogg</a>
             </li>
             <li class="menu-item">
-                <a href="filmsnutter-og-podkaster.php">Filmsnutter og podkaster</a>
+                <a href="filmsnutter-og-podkaster.php">Filmsnutter & podkaster</a>
             </li>
             <li class="menu-item">
                 <a href="innhold.php?type=article">Artikler og bøker</a>

@@ -19,7 +19,7 @@
             <div class="top_panel_title top_panel_style_3  title_present breadcrumbs_present scheme_dark">
                 <div class="top_panel_title_inner top_panel_inner_style_3  title_present_inner breadcrumbs_present_inner panel_img">
                     <div class="content_wrap">
-                        <h1 class="page_title">Filmsnutter og podkaster</h1>
+                        <h1 class="page_title">Filmsnutter & podkaster</h1>
                        
                     </div>
                 </div>
@@ -34,14 +34,14 @@
                             <div class="post_featured">
                                 <div class="post_thumb">
                                     <iframe width="1206" height="678" src="https://www.youtube.com/embed/bAxd6Nv7n5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="post_content clearfix">
                                 <h3 class="post_title">
-                                    <a href="post-standard.html">
+                                    
                                         Å nære det feminine
-                                    </a>
+                                    
                                 </h3>
                              
                                 <div class="post_descr">
@@ -62,9 +62,9 @@
                             </div>
                             <div class="post_content clearfix">
                                 <h3 class="post_title">
-                                    <a href="post-standard.html">
+                                   
                                         Det feminine skaper ut av motsetninger
-                                    </a>
+                                   
                                 </h3>
                                
                                 <div class="post_descr">
@@ -82,9 +82,9 @@
                             </div>
                             <div class="post_content clearfix">
                                 <h3 class="post_title">
-                                    <a href="post-standard.html">
+                                  
                                       Feminin styrke er vennlig varme
-                                    </a>
+                                  
                                 </h3>
                                
                                 <div class="post_descr">
@@ -103,9 +103,9 @@
                             </div>
                             <div class="post_content clearfix">
                                 <h3 class="post_title">
-                                    <a href="post-standard.html">
+                                 
                                      Kvinners lederstil er skapende samarbeid
-                                    </a>
+                                   
                                 </h3>
                              
                                 <div class="post_descr">
@@ -125,9 +125,9 @@
                             </div>
                             <div class="post_content clearfix">
                                 <h3 class="post_title">
-                                    <a href="post-standard.html">
+                                   
                                      Fra selvutivkling til sosialutvikling
-                                    </a>
+                                   
                                 </h3>
                               
                                 <div class="post_descr">
@@ -148,9 +148,9 @@
                                     </div>
                                 <div class="post_content clearfix">
                                     <h3 class="post_title">
-                                        <a href="post-standard.html">
+                                       
                                             Å lære i team gjennom samarbeid og samspill
-                                        </a>
+                                       
                                     </h3>
                                    
                                     <div class="post_descr">
@@ -168,9 +168,9 @@
                                     </div>
                                     <div class="post_content clearfix">
                                         <h3 class="post_title">
-                                        <a href="post-standard.html">
+                                       
                                         En nøkkel til fornyet dynamikk og initimitet
-                                        </a>
+                                        
                                         </h3>
                                        
                                         <div class="post_descr">
@@ -179,7 +179,28 @@
                                         </div>
                                     </div>
                                 </div>
-                        </div>    
+                        </div>   
+                        <div class="post_item post_item_excerpt post_featured_default post_format_standard odd post type-post status-publish format-standard has-post-thumbnail">
+                                <div class="post_featured">
+                                    <div class="post_thumb">
+                                    <iframe width="657" height="370" src="https://www.youtube.com/embed/W_pc-ddFodQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="post_content clearfix">
+                                    </div>
+                                    <div class="post_content clearfix">
+                                        <h3 class="post_title">
+                                       
+                                        Podcast: Fra bevissthet til handling
+
+                                
+                                        </h3>
+                                       
+                                        <div class="post_descr">
+                                            <p>Christine A. Schjetlein poengterer med intensitet og engasjement i dette intervjuet på Levevei.no at autentisk egenutvikling krever en investering i personlig indre arbeid. Vår mestring kommer med praksis, som utvider vår bevissthet og gir mer indre ro, harmoni – og den etterlengtede livsgleden. Hun er opptatt av ansvaret vi alle har for å ta med oss læringene fra selvutviklingsarbeidet ut i virkelighetens hverdag i samspill med andre mennesker. Intervjuet er gjort av James Alexander Arnfinsen, Levevei.no. </p>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>  
                     </div>  
                    <!-- /post -->                      
                 

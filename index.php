@@ -546,9 +546,8 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                         
                         <!-- Contact Form -->
                         <?php
- include "include/contact-form.php"
-
- ?>                               
+                            include "include/contact-form.php";
+                        ?>                               
                         <!--/ Contact Form -->              
                  
                 </div>
