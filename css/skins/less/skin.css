@@ -21,10 +21,10 @@ body {
 }
 h1 {
   font-family: "Playfair Display", serif;
-  font-size: 3.666em;
+  font-size: 2.666em;
   line-height: 1.3em;
   font-weight: 400;
-  margin-top: 1.222em;
+  margin-top: 1em;
   margin-bottom: 0.275em;
 }
 h2 {
@@ -8789,12 +8789,12 @@ button,
   background-color: #edb39b  ;
 }
 .scheme_original .sc_services_item{
-  min-width: 85%;
+  min-width: 95%;
   padding-left:15px;
   padding-right: 15px;
 }
 .scheme_original .sc_services_style_services-3 a:hover .sc_services_item_title {
-  color: #EDB39B;
+  color: black;
 }
 .scheme_light .sc_services_style_services-3 a:hover .sc_services_item_title {
   color: #EDB39B;
@@ -8821,7 +8821,7 @@ button,
   color: #EBC6B6;
 }
 .scheme_original .sc_services_style_services-4 .sc_services_item_title {
-  color: #6f6f6f;
+  color: black;
 }
 .scheme_light .sc_services_style_services-4 .sc_services_item_title {
   color: #6f6f6f;

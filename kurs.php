@@ -2,6 +2,7 @@
 <html lang="no-nb" class="scheme_original">
 
 <?php
+ $headerString = "Psykoterapeut Christine Schjetlein - Kvinnekurs i Oslo";
  include "include/header.php"
 
  ?>
@@ -20,197 +21,203 @@
           
             </div>
 
+         <!-- top_panel_title -->
+         <div class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_dark">
+                <div class="top_panel_title_inner top_panel_inner_style_3 title_present_inner breadcrumbs_present_inner panel_img">
+                    <div class="content_wrap">
+                        <h1 class="page_title">Kvinnekurs</h1>
+                     
+                    </div>
+                </div>
+            </div>
+        <!-- /top_panel_title -->
+        <!-- content -->
+        <div class="content">
+            <div class="post_item post_item_single post_featured_default">
+                <section class="post_content">
+                    <!-- How I Can Help You -->
+                    <div class="page_content_wrap page_paddings_no">
+                        <div class="content_wrap">
+                            <div class="content">
+                                <div class="itemscope post_item post_item_single post_featured_default post_format_standard">
+                                <section class="post_content">
+                                        <div class="wrapper">
+                                            <div class="sc_services_wrap">
+                                                <div class="sc_services sc_services_style_services-1 sc_services_type_images margin_top_huge margin_bottom_huge">
+                                                 
+                                                    <h1 class="home_h2 sc_services_title sc_item_title " style="text-align:center;">   Kvinnekurs</h1>
+                     
+                                                    <div class="sc_services_descr sc_item_descr">Kvinnekursene til Christine A. Schjetlein holdes i vakre og fredelige natur-omgivelser, som nærer det indre arbeidet. Du lærer å definere din voksne kvinnelighet gjennom:
 
-            <!-- content -->
-            <div class="content">
-                <div class="post_item post_item_single post_featured_default">
-                    <section class="post_content">
-                       
-
-
-                        <!-- How I Can Help You -->
-                        <div class="page_content_wrap page_paddings_no">
-                            <div class="content_wrap">
-                                <div class="content">
-                                    <div class="itemscope post_item post_item_single post_featured_default post_format_standard">
-                                    <section class="post_content">
-                                            <div class="wrapper">
-                                                <div class="sc_services_wrap">
-                                                    <div class="sc_services sc_services_style_services-1 sc_services_type_images margin_top_huge margin_bottom_huge">
-                                                        <h2 class="home_h2 sc_services_title sc_item_title">
-                                                            Kvinnekurs
-                                                        </h2>
-                                                        <div class="sc_services_descr sc_item_descr">Kvinnekursene til Christine A. Schjetlein holdes i vakre og fredelige natur-omgivelser, som nærer det indre arbeidet. Du lærer å definere din voksne kvinnelighet gjennom:
-
-                                                                </div>
-                                                        <div class="sc_slider_swiper swiper-slider-container sc_slider_nopagination sc_slider_controls sc_slider_controls_bottom" data-interval="5461000" data-slides-per-view="4" data-slides-space="30" data-slides-min-width="250">
-                                                            <div class="slides swiper-wrapper">
+                                                            </div>
+                                                    <div class="sc_slider_swiper swiper-slider-container sc_slider_nopagination sc_slider_controls sc_slider_controls_bottom" data-interval="5461000" data-slides-per-view="4" data-slides-space="30" data-slides-min-width="250">
+                                                        <div class="slides swiper-wrapper">
 
 
 
-                                                                <!-- swiper-slide Mindfulness-->
-                                                                <div class="swiper-slide">
-                                                                    <div class="sc_services_item_wrap">
-                                                                        <div class="sc_services_item sc_services_item_3 even">
-                                                                            <div class="sc_services_item_featured post_featured">
-                                                                                <div class="post_thumb" data-title="Mindfulness">
-                                                                                    <a class="hover_icon hover_icon_link" href="coaching.php#mindfulness">
-                                                                                        <img alt="DinIdentitet" src="images/bilde-mane.jpg">
-                                                                                    </a>
-                                                                                </div>
+                                                            <!-- swiper-slide Mindfulness-->
+                                                            <div class="swiper-slide">
+                                                                <div class="sc_services_item_wrap">
+                                                                    <div class="sc_services_item sc_services_item_3 even">
+                                                                        <div class="sc_services_item_featured post_featured">
+                                                                            <div class="post_thumb" data-title="Mindfulness">
+                                                                                <a class="hover_icon hover_icon_link" href="coaching.php#mindfulness">
+                                                                                    <img alt="DinIdentitet" src="images/din_identitet.jpg">
+                                                                                </a>
                                                                             </div>
-                                                                            <div class="sc_services_item_content">
-                                                                                <h4 class="sc_services_item_title">
-                                                                                    Din identitet?
-                                                                                </h4>
-                                                                                <div class="sc_services_item_description">
-                                                                                    <p>Oppdag at det finnes mer enn din barndomsoppdragelse, og samfunnets koder og normer for kvinner.</p>
-                                                                                </div>
+                                                                        </div>
+                                                                        <div class="sc_services_item_content">
+                                                                            <h4 class="sc_services_item_title">
+                                                                                Din identitet?
+                                                                            </h4>
+                                                                            <div class="sc_services_item_description">
+                                                                                <p>Å se at du er mer enn din barndoms oppdragelse, og samfunnets koder og normer for kvinner.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <!-- /swiper-slide -->
-                                                                    <!-- /swiper-slide Psykoterapi -->
-                                                                    <div class="swiper-slide">
-                                                                    <div class="sc_services_item_wrap">
-                                                                        <div class="sc_services_item sc_services_item_5 even">
-                                                                            <div class="sc_services_item_featured post_featured">
-                                                                                <div class="post_thumb" data-title="Psykoterapi">
-                                                                                    <a class="hover_icon hover_icon_link" href="psykoterapi.php">
-                                                                                        <img alt="Kropp & Følelser" src="images/bilde-8.jpg">
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="sc_services_item_content">
-                                                                                <h4 class="sc_services_item_title">
-                                                                                    Kropp & Følelser
-                                                                                </h4>
-                                                                                <div class="sc_services_item_description">
-                                                                                    <p>Ta eierskap av og føl indre tilhørighet til din kropp og ditt følelsesliv.</p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- /swiper-slide -->
-                                                                <!-- swiper-slide Coaching-->
-                                                                <div class="swiper-slide">
-                                                                    <div class="sc_services_item_wrap">
-                                                                        <div class="sc_services_item sc_services_item_4 even">
-                                                                            <div class="sc_services_item_featured post_featured">
-                                                                                <div class="post_thumb" data-title="Coaching">
-                                                                                    <a class="hover_icon hover_icon_link" href="coaching.php">
-                                                                                        <img alt="Intuisjon" src="images/bilde-7.jpg">
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="sc_services_item_content">
-                                                                                <h4 class="sc_services_item_title">
-                                                                                    Intuisjon
-                                                                                </h4>
-                                                                                <div class="sc_services_item_description">
-                                                                                    <p>Bli mer nærværende oppmerksom, intuitivt ”mindful”, i din relasjon til deg selv og andre.</p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- swiper-slide -->
-                                                                        <!-- swiper-slide Kvinnekurs -->
-                                                                <div class="swiper-slide">
-                                                                    <div class="sc_services_item_wrap">
-                                                                        <div class="sc_services_item sc_services_item_2 even">
-                                                                            <div class="sc_services_item_featured post_featured">
-                                                                                <div class="post_thumb" data-title="Kvinnekurs">
-                                                                                    <a class="hover_icon hover_icon_link" href="#">
-                                                                                        <img alt="Autentisitet" src="images/kurs_sirkelbilde.jpg">
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="sc_services_item_content">
-                                                                                <h4 class="sc_services_item_title">
-                                                                                    Autensitet
-                                                                                </h4>
-                                                                                <div class="sc_services_item_description">
-                                                                                    <p>Erkjenn den autentiske verdien du har for deg selv og medmennesker. </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- /swiper-slide -->
-                                                                <div class="swiper-slide">
-                                                                    <div class="sc_services_item_wrap">
-                                                                        <div class="sc_services_item sc_services_item_2 even">
-                                                                            <div class="sc_services_item_featured post_featured">
-                                                                                <div class="post_thumb" data-title="Kvinnekurs">
-                                                                                    <a class="hover_icon hover_icon_link" href="#">
-                                                                                        <img alt="Våge hele deg" src="images/kurs_sirkelbilde.jpg">
-                                                                                    </a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="sc_services_item_content">
-                                                                                <h4 class="sc_services_item_title">
-                                                                                Våge hele deg
-
-                                                                                </h4>
-                                                                                <div class="sc_services_item_description">
-                                                                                    <p>Utforsk samspillet og synergien mellom styrke & sårbarhet, sensualitet & seksualitet, et skarpt sinn & sarthet, sensitivitet & skjønnhet – og spiritualitet. </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-
                                                             </div>
                                                             <!-- /swiper-slide -->
-                                                            <div class="sc_slider_controls_wrap">
-                                                                <a class="sc_slider_prev" href="#"></a>
-                                                                <a class="sc_slider_next" href="#"></a>
+                                                                <!-- /swiper-slide Psykoterapi -->
+                                                                <div class="swiper-slide">
+                                                                <div class="sc_services_item_wrap">
+                                                                    <div class="sc_services_item sc_services_item_5 even">
+                                                                        <div class="sc_services_item_featured post_featured">
+                                                                            <div class="post_thumb" data-title="Psykoterapi">
+                                                                                <a class="hover_icon hover_icon_link" href="psykoterapi.php">
+                                                                                    <img alt="Kropp & Følelser" src="images/kurs_sirkelbilde.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sc_services_item_content">
+                                                                            <h4 class="sc_services_item_title">
+                                                                                Kropp & Følelser
+                                                                            </h4>
+                                                                            <div class="sc_services_item_description">
+                                                                                <p>Å ta eierskap av og føle deg hjemme i din egen  kropp og ditt følelsesliv </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div class="sc_slider_pagination_wrap"></div>
+                                                            <!-- /swiper-slide -->
+                                                            <!-- swiper-slide Coaching-->
+                                                            <div class="swiper-slide">
+                                                                <div class="sc_services_item_wrap">
+                                                                    <div class="sc_services_item sc_services_item_4 even">
+                                                                        <div class="sc_services_item_featured post_featured">
+                                                                            <div class="post_thumb" data-title="Coaching">
+                                                                                <a class="hover_icon hover_icon_link" href="coaching.php">
+                                                                                <img alt="Autentisitet" src="images/intuisjon.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sc_services_item_content">
+                                                                            <h4 class="sc_services_item_title">
+                                                                                Intuisjon
+                                                                            </h4>
+                                                                            <div class="sc_services_item_description">
+                                                                                <p>Å bli mer nærværende oppmerksom, intuitivt ”mindful”, i din relasjon til deg selv og andre.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- swiper-slide -->
+                                                                    <!-- swiper-slide Kvinnekurs -->
+                                                            <div class="swiper-slide">
+                                                                <div class="sc_services_item_wrap">
+                                                                    <div class="sc_services_item sc_services_item_2 even">
+                                                                        <div class="sc_services_item_featured post_featured">
+                                                                            <div class="post_thumb" data-title="Kvinnekurs">
+                                                                                <a class="hover_icon hover_icon_link" href="#">
+                                                                                    <img alt="Autentisitet" src="images/autentisk.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sc_services_item_content">
+                                                                            <h4 class="sc_services_item_title">
+                                                                                Autensitet
+                                                                            </h4>
+                                                                            <div class="sc_services_item_description">
+                                                                                <p>Å erkjenne den autentiske verdien du har for deg selv og medmennesker.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /swiper-slide -->
+                                                            <div class="swiper-slide">
+                                                                <div class="sc_services_item_wrap">
+                                                                    <div class="sc_services_item sc_services_item_2 even">
+                                                                        <div class="sc_services_item_featured post_featured">
+                                                                            <div class="post_thumb" data-title="Kvinnekurs">
+                                                                                <a class="hover_icon hover_icon_link" href="#">
+                                                                                    <img alt="Våge hele deg" src="images/5_hele_deg.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sc_services_item_content">
+                                                                            <h4 class="sc_services_item_title">
+                                                                            Å våge å være hele deg
+
+                                                                            </h4>
+                                                                            <div class="sc_services_item_description">
+                                                                                <p>Samspillet og synergien mellom styrke & sårbarhet, sensualitet & seksualitet, et skarpt sinn & sarthet, sensitivitet & skjønnhet </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
                                                         </div>
+                                                        <!-- /swiper-slide -->
+                                                        <div class="sc_slider_controls_wrap">
+                                                            <a class="sc_slider_prev" href="#"></a>
+                                                            <a class="sc_slider_next" href="#"></a>
+                                                        </div>
+                                                        <div class="sc_slider_pagination_wrap"></div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </section>
-                                    </div>                       
+                                        </div>
+                                    </section>
+                                </div>                       
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /How I Can Help You -->     
+                    <div class="page_content_wrap page_paddings_yes">
+                        <div class="content_wrap">
+                                <div class="content">
+                                    <!-- post-content -->
+                                    <div class="itemscope post_item post_item_single post_featured_default post_format_standard post type-post status-publish format-standard has-post-thumbnail hentry category-standard-blog category-without-sidebar tag-my-office tag-presentations">
+
+                                        <div class="post_content"  id="psykoterapi">
+                                    
+                                            <p>I felleskap styrker vi hverandres nyvinninger, som kraftfulle & kreative kvinner. Kursets faglige krysnings feltet ligger mellom vestlig vitenskap, erfaringskunnskap fra esoterisk tradisjoner, og nyere psykologisk forskning. Vårt fokus er bærekraftig bevisstgjøring på kvinnens vis. Erfaringene skaper dyptgripende endringer i deg og dine relasjoner, påvirker din grunnleggende tilnærming til livet, og gjenoppretter din selvtillit innenfra. Verden trenger at vi står opp for feminine verdier for vår egen del, våre barns og våre menns skyld.</p>
+
+
+                                        </div>
+                                    <!-- post-content -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- /How I Can Help You -->     
-                        <div class="page_content_wrap page_paddings_yes">
-                <div class="content_wrap">
-                        <div class="content">
-                            <!-- post-content -->
-                            <div class="itemscope post_item post_item_single post_featured_default post_format_standard post type-post status-publish format-standard has-post-thumbnail hentry category-standard-blog category-without-sidebar tag-my-office tag-presentations">
-
-                                <div class="post_content"  id="psykoterapi">
-                               
-                                    <p>I felleskap styrker vi hverandres nyvinninger, som kraftfulle & kreative kvinner. Kursets faglige krysnings feltet ligger mellom vestlig vitenskap, erfaringskunnskap fra esoterisk tradisjoner, og nyere psykologisk forskning. Vårt fokus er bærekraftig bevisstgjøring på kvinnens vis. Erfaringene skaper dyptgripende endringer i deg og dine relasjoner, påvirker din grunnleggende tilnærming til livet, og gjenoppretter din selvtillit innenfra. Verden trenger at vi står opp for feminine verdier for vår egen del, våre barns og våre menns skyld.</p>
-
-
-                                </div>
-                            <!-- post-content -->
-                            </div>
-                        </div>
-                </div>
-            
+                    </div>
+                </section>                                                          
+                    <!-- Contact Form -->
+                    <?php
+                        include "include/contact-form-kurs.php";
+                    ?>                               
+                    <!--/ Contact Form -->              
+                                    
             </div>
-           
-                        <!-- Contact Form -->
-                        <?php
-                            include "include/contact-form-kurs.php";
-                        ?>                               
-                        <!--/ Contact Form -->              
-                 
-                </div>
-                <div style="width:100%;float: left;height:600px;background-image:url('images/exalted-good.jpg');background-size:cover;margin-bottom: 100px;">
-                                    <blockquote style="color:white;margin-top:150px;font-size:xx-large;"> Si meg, hva er det du har tenkt å gjøre med ditt ene ville og dyrebare liv?<br><span style="float:right">Mary Oliver </span></blockquote>
-                </div>
-            </div> 
+            <div style="width:100%;float: left;height:600px;background-image:url('images/exalted-good.jpg');background-size:cover;margin-bottom: 100px;">
+                                <blockquote style="color:white;margin-top:150px;font-size:xx-large;"> Si meg, hva er det du har tenkt å gjøre med ditt ene ville og dyrebare liv?<br><span style="float:right">Mary Oliver </span></blockquote>
+            </div>
+        </div> 
             <!-- /content -->
 <?php
  include "include/footer.php"

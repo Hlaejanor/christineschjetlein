@@ -2,7 +2,7 @@
 
 include "contact-form-handler.php";
 ?>
-<div class="form_contact_page_bg" style="background-image:none">
+<div class="form_contact_page_bg" style="background-image:none;background-color:#EDB39B">
     <div class="page_content_wrap page_paddings_no">
         <div class="content_wrap ">
             <div class="content">
@@ -26,7 +26,8 @@ include "contact-form-handler.php";
                                 ?>
                             </h2>
                             <h3>
-                            Mer informasjon følger senere. Meld deg gjerne på mitt inspirasjonsbrev for jevnlige inspirsajonsdrypp og oppdateringer.
+                            Mer informasjon følger senere. Meld deg gjerne på mitt månedlige inspirasjonsbrev for oppdateringer og nyheter.
+
                             </h3>
                             <form data-formtype="form_1" method="post" action="kontakt.php">
                                 <input id="formtype" type="hidden" name="formtype" value="form_custom">
@@ -50,7 +51,7 @@ include "contact-form-handler.php";
                                 </div>
                             
                                 <div class="sc_form_item sc_form_button">
-                                    <input type="SUBMIT" name="submit" placeholder="send" value="Meld meg på">
+                                    <input style="background-color:#72b5ca" type="SUBMIT" name="submit" placeholder="send" value="Meld meg på">
                                     
                                 </div>                                                            
                             </form>
@@ -62,7 +63,7 @@ include "contact-form-handler.php";
                             <h2 class="sc_form_title sc_item_title">
                                Takk for din påmelding
                             </h2>
-                            <p>Du skal nå ha motatt en epost (sjekk spam-filteret) som bekrefter at du vil bli påmeldt epostlisten.</p>
+                        
                                     
                             <?php
                                 }

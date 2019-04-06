@@ -5,8 +5,9 @@
         <meta name="format-detection" content="telephone=no">
         <link rel="icon" type="image/x-icon" href="http://placehold.it/12x12" />
         
-        <title> Psykoterapeut Christine A. Schetlein</title>
-   
+        <?php 
+            echo "<title>".$headerString."</title>";
+        ?>
         <!-- fonts -->     
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700|Raleway:100,200,300,400,500,600,700,800,900|Droid+Serif:400,700" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300" rel="stylesheet">
@@ -17,7 +18,7 @@
             <link rel='stylesheet' href='css/responsive.css' type='text/css' media='all' />
             <link rel='stylesheet' href='css/skin.responsive.css' type='text/css' media='all' />
             <link rel='stylesheet' href='js/revslider/css/settings.css' type='text/css' media='all'/>
-            <link rel='stylesheet' href='css/font-awesome.css' type='text/css' media='all' />
+         
             <link rel='stylesheet' href='js/tooltipster/css/tooltipster.css' type='text/css' media='all' />
             <link rel='stylesheet' href='js/tooltipster/css/tooltipster-light.css' type='text/css' media='all' />
             <link rel='stylesheet' href='css/shortcodes/theme.shortcodes.css' type='text/css' media='all' />   

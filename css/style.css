@@ -97,7 +97,10 @@ body {
 	/* height: 100%; */					/* Commented, because it conflict with overflow-x: hidden - appear second scrollbar while tooltip is display in the Booked plugin */
 }
 
-
+p{
+	font-size:medium !important;
+	color:black;
+}
 
 /* 2. Default tag's settings
 -------------------------------------------------------------- */
@@ -190,9 +193,18 @@ body[class*="woocommerce-"] table th, body[class*="woocommerce-"] table td {
 
 .testimonial-text{
 	font-size: medium;
+	color:black;
 	line-height: 14px;
+	font-family: "Roboto", sans-serif;
 }
+.sc_services_item_title_2{
+    color: black;
+    text-align: center;
+    display: block;
+    min-height: 26px;
+    padding: 10px 10px 10px 10px;
 
+}
 blockquote:before, blockquote:after,
 q:before, q:after {	content: ""; }
 blockquote, q {	quotes: "" "";}
@@ -1035,8 +1047,12 @@ label.required:after {
 	padding: 3.5em 0;
 }
 .imgArticle{
-	float:right; 
-	width:50%; padding:20px;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: auto;
 }
 .sidebar_show .page_content_wrap {
 	padding: 5.333em 0;
@@ -1550,16 +1566,14 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 	margin: 2em 0 1em 0;
 	overflow:hidden;
 }
-.top_panel_wrap .logo_main {
-    max-height: 100px;
-}
+
 .logo a {
 	display:inline-block;
 }
 .logo img {
 	float:left;
 	margin: 0 0.7857em 0.7857em 0;
-	width: 300px;
+	max-width: 350px;
 }
 .logo_text,
 .logo_slogan {
@@ -2913,7 +2927,7 @@ li.opened > a > .open_child_menu:before {
 blockquote {
 	font-size: 1.2em;
 	font-style: italic;
-	margin: 2em 2em 2em 4em;
+	
 	padding: 1em 2.888em;
 	line-height: 50%;
 
@@ -3053,8 +3067,8 @@ blockquote > p > a:hover:after {
 	line-height: inherit;
 }
 .post_item .post_readmore {
-	margin-bottom: 0.1em;
-	margin-top: 0.33em;
+    bottom: 0px;
+    position: absolute;
 }
 
 /* Layout Excerpt */
@@ -3192,8 +3206,13 @@ blockquote > p > a:hover:after {
 	max-height: 8em;
 	overflow: hidden;
 }
+.home_h2.sc_services_title.sc_item_title {
+	font-size: 44px !important;
+}
+.kicker{
 
-
+	line-height: 150%;
+}
 /* Isotope layout */
 .isotope_wrap {
 	margin-right:-30px;
@@ -4706,9 +4725,10 @@ blockquote > p > a:hover:after {
 	margin-bottom:1em;
 }
 .widget_area ul {
-	list-style-type:none;
-	margin-bottom:0;
-	padding-left:0;
+	padding-left: 0;
+    list-style-type: disc;
+    list-style-position: outside;
+    color: white;
 }
 .widget_area ul ul {
 	margin-top:0.5em;
@@ -6053,20 +6073,25 @@ h1 .text_column p, h2 .text_column p, h3 .text_column p, h4 .text_column p, h5 .
 	position: relative;
 	right: -2%;
 }
+.signature{
+	width:50%;
+	max-width: 200px;
+}
+
 .about_img img{
 	height: 100%;
 	width: 100%;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top center;
-	margin-top:100px;
+
 }
 .expert_clinical{
-	font-size: 23px;
+	font-size: 16px;
 	color: #33302e;
 	text-align: left;
 	line-height: 150%;
-    margin-left: 2em;
+   
 }
 .two_column{
 	width:50%;
@@ -6083,6 +6108,7 @@ h1 .text_column p, h2 .text_column p, h3 .text_column p, h4 .text_column p, h5 .
 }
 .about_text_2{
 	margin-top: 45px;
+	color:black;
 }
 .rail1{
 	top: 0px; 
@@ -6119,8 +6145,13 @@ h1 .text_column p, h2 .text_column p, h3 .text_column p, h4 .text_column p, h5 .
 }
 .testimonials_bg{
 	padding-top: 20px !important;
-	background-color: #cde7e8!important;
+	background-color: #eaf5f9!important;
 }
+.testimonials_bg_peach{
+	padding-top: 20px !important;
+	background-color:#fbedde;
+}
+
 .happy_clients{
 	font-size: 12px;
 	color: #76b5c8;
@@ -6160,7 +6191,7 @@ ul.text_center1{
 }
 h1.testimonial_text{
 	font-size: 55px;
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-bottom: 20px;
 }
 .content2{
@@ -6206,7 +6237,7 @@ th.header_bg_booked2{
 	text-align: center;
 }
 .form_contact_page_bg{
-	background-color: #fbedde  !important;
+	background-color: #fbedde;
 	padding: 25px 0; 
 	background-image: url("../images/inspbg.jpg");
 	background-size:cover;	 
@@ -7086,7 +7117,7 @@ li.tp-revslider-slidesli11{
 }
 .attribution{
 	margin-right: 20px;
-	margin-top: 35px;
+	margin-top: 0px;
     display: block;
     float: right;
     font-size: 35px;

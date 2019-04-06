@@ -1,5 +1,4 @@
 <?php
-
 include "contact-form-handler.php";
 ?>
 <div class="form_contact_page_bg">
@@ -9,20 +8,15 @@ include "contact-form-handler.php";
                 <div class="wrapper">
                     <div class="sc_form_wrap scheme_light">
                         <div class="sc_form sc_form_style_form_1 aligncenter margin_top_huge margin_bottom_huge">
-                            <?php 
-                                if(!verifyEmailPostSubmit()){
-                                    
-                            ?>
+                            
                             <h2 class="sc_form_title sc_item_title">
                                 <?php
 
-                                if(isset($_POST["email"])){
-                                    echo " Ugydig epostadresse";
-                                }
-                                else{
-                                    echo " Meld deg på mitt månedlige inspirasjonsbrev";
-                                }
-                            
+                                    $message = verifyEmailPostSubmit();
+                                
+                                    echo "<h1>".$message[1]."</h1>";
+                                  
+                                    if($message[0] == true){
                                 ?>
                             </h2>
                             <form data-formtype="form_1" method="post" action="kontakt.php">
@@ -32,20 +26,26 @@ include "contact-form-handler.php";
                                         <div class="column-1_3 sc_column_item sc_column_item_1 odd first">
                                             <div class="sc_form_item sc_form_field label_over">
                                                 <label class="required" for="sc_form_usernameasd">Navn</label>
-                                                <input id="sc_form_username" type="text" name="username" placeholder="Navn">
+                                                <input id="sc_form_username" type="text" name="username" placeholder="Navn" value="<?php echo $_POST["username"]; ?>">
                                             </div>
                                         </div>
                                         <div class="column-1_3 sc_column_item sc_column_item_2 even">
                                             <div class="sc_form_item sc_form_field label_over">
                                                 <label class="required" for="sc_form_email">E-post</label>
-                                                <input id="sc_form_email" type="text" name="email" placeholder="E-post">
+                                                <input id="sc_form_email" type="text" name="email" placeholder="E-post" value="<?php echo $_POST["email"]; ?>">
                                                 
                                             </div>
                                         </div>
-                                        
+                                      
                                     </div>
                                 </div>
-                            
+                                <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3">
+                                <div class="column-1_3 sc_column_item sc_column_item_1 odd first">
+                                            Skriv inn bokstavene <div class="sc_form_item sc_form_field label_over">
+                                                 <img src="captcha/captchaImage.php" / style="margin:10px"><input type="text" name="captcha" placeholder="Skriv inn bokstavene over"/>
+                                            </div>
+                                        </div>
+                                        </div>
                                 <div class="sc_form_item sc_form_button">
                                     <input type="SUBMIT" name="submit" placeholder="send" value="Meld meg på">
                                     
@@ -53,18 +53,7 @@ include "contact-form-handler.php";
                             </form>
                             <?php
                                 }
-                                else{
                             ?>
-
-                            <h2 class="sc_form_title sc_item_title">
-                               Takk for din påmelding
-                            </h2>
-                            <p>Du skal nå ha motatt en epost (sjekk spam-filteret) som bekrefter at du vil bli påmeldt epostlisten.</p>
-                                    
-                            <?php
-                                }
-                            ?>
-                        
                         </div>
                     </div>                                               
                 </div>     

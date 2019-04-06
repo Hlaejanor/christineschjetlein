@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="no-nb" class="scheme_original">
 <?php
- include "include/header.php";
- error_reporting(E_ALL);
- ini_set('display_errors', 1);
+
 
 include "data/contentData.php";
 $content_array_searched = [];
@@ -66,6 +64,8 @@ else{
 }
 }
 
+$headerString = "Psykoterapeut Christine A. Schjetlein - ".$pageHeader;
+include "include/header.php";
  ?>
 
     <body class="archive category category-masonry-2-columns category-8 cloe_brooks_body body_style_wide body_transparent theme_skin_less article_style_stretch layout_masonry_2 template_masonry scheme_original top_panel_show top_panel_above <?php if($showSideBar){ echo "sidebar_show sidebar_right sidebar_outer_hide"; }  ?>">
@@ -205,13 +205,13 @@ else{
 
                             <!-- Recent Posts -->
                                 <aside class="widget widget_recent_entries">
-                                    <h5 class="widget_title">Siste poster</h5>
+                                    <h5 class="widget_title">Alle blogginnlegg</h5>
                                     <ul>
                                         <?php 
                                           $i = 0;
-                                          $from = count($blog_array)-$latestCount;
+                                        
                                           foreach($blog_array as $key=>$value){
-                                              if($i <$from){
+                                              
                                                 
                                                      echo "<li>
                                                             <a class='hover_icon ' href='".$value->getLinkUrl()."'>"
@@ -219,11 +219,10 @@ else{
                                                             ."</a>
                                                         </li>";
 
-                                              }
-                                              $i++;
+                                              
                                           }
                                         ?>
-                                        <li>
+                                        
 
                                     </ul>
                                 </aside>

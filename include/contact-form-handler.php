@@ -1,26 +1,50 @@
 <?php
-
+session_start();
 function verifyEmailPostSubmit()
 {
 
-    if(!isset($_POST['email'])){
-        return false;
+    if(!$_POST){
+        return  Array(true, "Meld deg på mitt nyhetsbrev");
     }
-
+    if(!isset($_POST['email'])){
+        return  Array(true, "Du må skrive inn en gyldig epostadresse");
+    }
+    if(!isset($_POST['captcha'])){
+        return  Array(true, "Du glemte koden - skriv inn de fire bosktavene ");
+    }
+    
+    
     $v = "/[a-zA-Z0-9_-.+]+@[a-zA-Z0-9-]+.[a-zA-Z]+/";
 
     //if((bool)preg_match($v, $_POST['email'])){
-    if(validateEmail( $_POST['email'])){
-       
-        sendMailAdmin($_POST['username'], $_POST['email']);
-        sendMailUser($_POST['username'], $_POST['email']);
-
-        return true;
+    if(!validateEmail( $_POST['email'])){
+        $errorMessage = "Du må skrive inn en gyldig epostadresse";
+        return  Array(true, "Du må skrive inn en gyldig epostadresse");
+        
     }
-   
-    
-    return false;
+    if(!verifyCaptcha()){
+        return  Array(true, "Ugyldig kode - skriv inn de fire bosktavene på ny");
+       
+    }
+
+    sendMailAdmin($_POST['username'], $_POST['email']);
+    sendMailUser($_POST['username'], $_POST['email']);
+
+    return  Array(false, "Takk for din påmelding");
+
+}
+function verifyCaptcha(){
   
+	if(isset($_POST) & !empty($_POST)){
+		if($_POST['captcha'] == $_SESSION['code']){
+
+            return true;
+		}else{
+            return false;
+		}
+    }
+    return false;
+
 }
 function validateEmail($email)
 {
@@ -50,7 +74,7 @@ function validateEmail($email)
 
     // RETURN RESULT
 
-        return $emailIsValid;
+     return $emailIsValid;
 }
 function getMailHeader($recipient){
 
@@ -93,7 +117,9 @@ function sendMailUser($newName, $newEmail){
     Dersom du finner denne eposten i spam-filtered, kan du høyreklikke på avsenderadressen og legge til i listen over godkjente avsendere
     ";
 
-    mail("christine@schjetlein.no",$subject,$msg, $header);
+   // mail("christine@schjetlein.no",$subject,$msg, $header);
+    mail("jens.tandstad@gmail.com",$subject,$msg, $header);
 
 }
+
 ?>

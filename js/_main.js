@@ -285,7 +285,12 @@
     } else {
         var htmlDiv = document.createElement('div');
         htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
-        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+        
+        if( document.getElementsByTagName('head')[0].nodeName == "Node"){
+            alert("It is a")
+            document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+        }
+      
     }
 
 /******************************************
@@ -400,7 +405,7 @@ if (htmlDiv) {
 htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
 } else {
 var htmlDiv = document.createElement("div");
-//htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
 document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
 }
 

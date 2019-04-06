@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="no-nb" class="scheme_original">
 <?php
+ $headerString = "Psykoterapeut Christine A. Schjetlein";
  include "include/header.php"
 
  ?>
@@ -183,7 +184,7 @@
                         <div class="post_item post_item_excerpt post_featured_default post_format_standard odd post type-post status-publish format-standard has-post-thumbnail">
                                 <div class="post_featured">
                                     <div class="post_thumb">
-                                    <iframe width="657" height="370" src="https://www.youtube.com/embed/W_pc-ddFodQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="657" height="370" src="https://www.youtube.com/embed/9Q1GshQ_izc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             <div class="post_content clearfix">
                                     </div>
                                     <div class="post_content clearfix">

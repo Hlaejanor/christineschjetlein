@@ -12,7 +12,7 @@
                         <div class="contacts_address">
                             <address class="address_right">
                                 <i class="icon icon-mail81"></i>
-                                <span>christine@schjetlein.no
+                                <span><a style="color:#6f6f6f" href="mailto:christine@schjetlein.no">christine@schjetlein.no</a>
                                 </span>
                             </address>
                             <address class="address_left">

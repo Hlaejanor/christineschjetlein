@@ -123,6 +123,8 @@
                                         <div class="sc_testimonial_author">
                                             <span class="sc_testimonial_author_name">Tord Gustavsen</span>
                                             <span class="sc_testimonial_author_position">Musiker</span>
+                                            <span style="font-size:x-small" class="sc_testimonial_author_position">Foto : Hans Fredrik Asbjørnsen</span>
+                                                       
                                         </div>
                                     </div>
                                 </div>

@@ -3406,7 +3406,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 -------------------------------------------------------------- */
 .sc_services_item .sc_services_item_title {
 	margin:1em 0 0;
-	font-size:1.395em;
+	font-size:1.195em;
 }
 .sc_services_item .sc_services_item_description {
 	margin-top:1.2857em;
@@ -3953,9 +3953,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 	top:50%;
 	height:0;
 }
-.sc_slider_nocontrols .sc_slider_controls_wrap {
-	display:none !important;
-}
+
 .sc_slider_controls_wrap a {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -4044,7 +4042,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 	display:none !important;
 }
 .sc_slider_swiper .sc_slider_pagination_wrap {
-	position: absolute;
+
 	z-index:10;
 	height:12px;
 	margin: 0;
@@ -4887,7 +4885,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 	display:block;
 }
 .sc_testimonials_style_testimonials-3 .sc_testimonial_author_name {
-	font-size:1.2em;
+	font-size:1.3em;
 	font-weight:400;
 }
 .sc_testimonials_style_testimonials-3 .sc_testimonial_author_position {
@@ -4929,7 +4927,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 	display:block;
 }
 .sc_testimonials_style_testimonials-4 .sc_testimonial_author_name {
-	font-size:1.2857em;
+	font-size:1.5857em;
 	font-weight:bold;
 }
 .sc_testimonials_style_testimonials-4 .sc_testimonial_author_position {
@@ -5313,11 +5311,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 }
 
 /* Title */
-.sc_item_title {
-	font-size: 3.666em;
-	margin: 0;
-	text-align:center;
-}
+
 .sc_item_title:after {
 	content:' ';
 	display:block;
@@ -5334,7 +5328,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 	letter-spacing: 1px;
 	line-height: 1.7em;
 	margin: 0.25em auto 3.8em;
-	max-width: 520px;
+	max-width: 800px;
 	text-align: center;
 	text-transform: uppercase;
 }

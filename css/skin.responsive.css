@@ -13,11 +13,7 @@ Apple iPod Touch (5th generation)
 /* Without side menu */
 @media (min-width: 1136px) and (max-width: 1279px) {
 	html, body {	font-size: 14px; }
-	.imgArticle{
-		float: unset; 
-		 width: unset; 
-		 padding: unset; 
-	}
+	
 }
 
 
@@ -37,11 +33,7 @@ Apple iPod Touch (4th generation)
 	h4 { font-size:1.3846em; }	/* 18px */
 	h5 { font-size:1.2308em; }	/* 16px */
 	h6 { font-size:1em; }		/* 13px */
-	.imgArticle{
-		float: unset; 
-		 width: unset; 
-		 padding: unset; 
-	}
+
 
 	/* Post layouts */
 	.isotope_filters a {
@@ -200,6 +192,7 @@ Samsung Galaxy
 		float: unset; 
 		 width: unset; 
 		 padding: unset; 
+		 margin-bottom:25px;
 	}
 	/* Post layouts */
 	.isotope_filters a {
@@ -283,6 +276,7 @@ Very common low res
 		float: unset; 
 		 width: unset; 
 		 padding: unset; 
+		 margin-bottom:25px;
 	}
 	
 	/* Post layouts */

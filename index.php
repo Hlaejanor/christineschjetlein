@@ -2,7 +2,9 @@
 <html lang="no-nb" class="scheme_original">
 
 <?php
- include "include/header.php"
+    session_start();
+    $headerString = "Psykoterapeut Christine A. Schetlein ";
+    include "include/header.php"
 
  ?>
   
@@ -69,8 +71,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                 </div>
                            
                                 <div class="tp-caption home1_title home1_title21 tp-resizeme" id="slide-1-layer-2" data-x="5" data-y="190" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;" data-start="1250" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                                    Veien blir til mens du går.<br> Små skritt med mye
-                                    vennlighet og varme.
+                                    Veien blir til mens du går. <br>  Små skritt med mye vennlighet og varme.
                                 </div>
                                 <a     href="innhold.php?type=blog" class="post_readmore sc_button sc_button_style_filled sc_button_center">
                                                                     <span class="post_readmore_label">Blogg</span>
@@ -105,16 +106,16 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                         <!-- jeg tilbyr  -->
                         <div class="sc_services_wrap">
                                 <div class="sc_services sc_services_style_services-4 sc_services_type_icons cd_accent1_hover margin_top_huge margin_bottom_huge">
-                                    <h2 class="sc_services_title sc_item_title home_h2">
-                                      Dine muligheter
-                                    </h2>
+                                <h1 class="home_h2 sc_services_title sc_item_title " style="text-align:center;">Dine muligheter</h1>
+                     
+                               
                                     <div class="sc_services_descr sc_item_descr">
                                     Mitt bidrag er å skape trygge rammer så vårt samarbeid kan styrke ditt indre kompass. 
-  </div>
-                                  <div class="sc_columns columns_wrap">
+                                    </div>
+                                       <div class="sc_columns columns_wrap">
                                       <div class="column-1_2 col_right">
                                           <div class="sc_services_item sc_services_item_1 odd first">
-                                              <a href="psykoterapi.php">
+                                              <a href="coaching.php">
                                                   <span class="sc_icon icon-check71"></span>
                                                   <span class="sc_services_item_title">
                                                   Positiv Psykologi -  bli proaktiv
@@ -155,7 +156,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                         </div>
                                         <div class="column-1_2 col_right">
                                           <div class="sc_services_item sc_services_item_5 odd">
-                                              <a href="psykoterapi.php">
+                                              <a href="coaching.php">
                                                   <span class="sc_icon icon-check71"></span>
                                                   <span class="sc_services_item_title">
                                                   Livsmestring - bevisst krysstrening 
@@ -186,7 +187,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                         </div>
                                         <div class="column-1_2 col_left">
                                           <div class="sc_services_item sc_services_item_8 even">
-                                              <a href="psykoterapi.php">
+                                              <a href="coaching.php">
                                                   <span class="sc_icon icon-check71"></span>
                                                   <span class="sc_services_item_title">
                                                   Livsglede – mellom mikro & makroskala
@@ -197,7 +198,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                         </div>
                                         <div class="column-1_2 col_right">
                                           <div class="sc_services_item sc_services_item_9 odd">
-                                              <a href="psykoterapi.php">
+                                              <a href="coaching.php">
                                                   <span class="sc_icon icon-check71"></span>
                                                   <span class="sc_services_item_title">
                                                   Vennlighet & Varme - for deg selv 
@@ -259,7 +260,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                                  <a href="kontakt.php" class="post_readmore sc_button  sc_button_style_filled  ">
                                                                     <span class="post_readmore_label">Kontakt meg</span>
                                                                 </a> 
-                                                                <img width="50%" style="margin:10px" src="images/underskrift.png">
+                                                                <img class="signature" style="margin:10px" src="images/underskrift.png">
                                                             </figure>
 
                                                         </div>
@@ -284,9 +285,9 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                             <div class="wrapper">
                                                 <div class="sc_services_wrap">
                                                     <div class="sc_services sc_services_style_services-1 sc_services_type_images margin_top_huge margin_bottom_huge">
-                                                        <h2 class="home_h2 sc_services_title sc_item_title">
-                                                           Dette tilbyr jeg
-                                                        </h2>
+                                                   
+                                                        <h1 class="home_h2 sc_services_title sc_item_title " style="text-align:center;"> Dette tilbyr jeg</h1>
+                     
                                                         <div class="sc_services_descr sc_item_descr">
                                                               </div>
                                                         <div class="sc_slider_swiper swiper-slider-container sc_slider_nopagination sc_slider_controls sc_slider_controls_bottom" data-interval="5461000" data-slides-per-view="4" data-slides-space="30" data-slides-min-width="250">
@@ -310,7 +311,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                                                     <a href="coaching.php#mindfulness">Mindfulness</a>
                                                                                 </h4>
                                                                                 <div class="sc_services_item_description">
-                                                                                    <p>Kunsten å leve i tilstedeværelse er med oppmerksomt nærvær. Verktøyene du får virker både fysisk og psykisk, og skaper mer indre ro</p>
+                                                                                    <p>Kunsten å leve i tilstedeværelse er med oppmerksomt nærvær. Verktøyene du får virker både fysisk og psykisk, og skaper mer indre ro.</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -356,7 +357,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                                                     <a href="coaching.php">Coaching</a>
                                                                                 </h4>
                                                                                 <div class="sc_services_item_description">
-                                                                                    <p>Coaching samtalen er katalyserende for å bringe frem potensialer du har i deg, personlig og profesjonelt</p>
+                                                                                    <p>Coaching samtalen er katalyserende for å bringe frem potensialer du har i deg, personlig og profesjonelt.</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -369,7 +370,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                                         <div class="sc_services_item sc_services_item_2 even">
                                                                             <div class="sc_services_item_featured post_featured">
                                                                                 <div class="post_thumb" data-title="Kvinnekurs">
-                                                                                    <a class="hover_icon hover_icon_link" href="#">
+                                                                                    <a class="hover_icon hover_icon_link" href="kurs.php">
                                                                                         <img alt="Kvinnekurs" src="images/kurs_sirkelbilde.jpg">
                                                                                     </a>
                                                                                 </div>
@@ -385,9 +386,6 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <!-- /swiper-slide -->
-                                                              
-
 
                                                             </div>
                                                             <!-- /swiper-slide -->
@@ -439,6 +437,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                                 <div class="sc_testimonial_author">
                                                                     <span class="sc_testimonial_author_name">Tord Gustavsen</span>
                                                                     <span class="sc_testimonial_author_position">Musiker</span>
+                                                                    <span style="font-size:x-small" class="sc_testimonial_author_position">Foto : Hans Fredrik Asbjørnsen</span>
                                                                 </div>
                                                             </div>
                                                         </div>

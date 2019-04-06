@@ -18,7 +18,7 @@ $blog_array[] = new ContentEntryClass(
     
     
 $blog_array[] = new ContentEntryClass(
-    "UsikkerhetDittOppvaakningskall", "Usikkerhet – ditt oppvåknsingskall", 
+    "UsikkerhetDittOppvaakningskall", "Usikkerhet – ditt oppvåkningskall", 
     "Hvordan takle og forstå usikkerhet kan være forvirrende for de fleste. Fordi det er såpass ubehagelig vil vi helst ikke føle oss usikre. Livsveiledning kan hjelpe deg å sortere. For hva om du kan lære å tåle virringen, så du får et nødvendig pusterom til ettertanke? For den varsler at noe ikke er som skal være.", 
     "08_blogg_desember_2018.txt",
     "Blogg, Desember 2018", "08_blogg_desember_2018.jpg", "blog", null, true);

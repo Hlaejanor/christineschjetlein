@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="no-nb" class="scheme_original">
 <?php
+    session_start();
  include "include/header.php"
 
  ?>
@@ -408,7 +409,7 @@
             <!-- /How I Can Help You -->
 
             <!-- About Me -->
-            <div class="wrapper img_cover_about_me">
+            <div class="wrapper ">
                 <div class="sc_content content_wrap">
                     <div class="columns_wrap sc_columns columns_nofluid autoheight sc_columns_count_12">
                         <div class="column-5_12 sc_column_item sc_column_item_1 odd first span_5">

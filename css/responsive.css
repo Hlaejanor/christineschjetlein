@@ -50,9 +50,9 @@
 		padding: 0.47em 1.3em !important;
 	}
 	.about_img img{
-		width: 80%;
-		margin-top:50px;
-
+		width: 100%;
+		margin:20px;
+		padding:20px;
 	}
 
 }
@@ -99,11 +99,12 @@ Apple iPod Touch (5th generation)
 	display: none;
     }
 	.top_panel_wrap .logo_main {
+		height:75px;
 	
 	}
 	.isotope_wrap .isotope_item {
 
-		min-height: 300px;
+		min-height: 600px;
 	}
 	/* Body sizes */
 	.body_style_boxed .page_wrap {		width:1060px; }
@@ -219,6 +220,9 @@ Apple iPod Touch (5th generation)
 	.post_info_item .post_info_posted{
 		display: none;
 	}
+	.top_panel_wrap .logo_main {
+		height:50px;
+	}
 	.isotope_wrap .isotope_item {
 
 		min-height: 300px;
@@ -273,6 +277,9 @@ Apple iPod Touch (5th generation)
 @media (min-width: 1024px) and (max-width: 1135px) {
 	.post_info{
 		display: none !important;
+	}
+	.top_panel_wrap .logo_main {
+		height:50px;
 	}
 	.isotope_wrap .isotope_item {
 
@@ -341,6 +348,9 @@ Apple iPod Touch (5th generation)
 @media (min-width: 960px) and (max-width: 1023px) {
 		.post_info{
 		display: none !important;
+	}
+	.top_panel_wrap .logo_main {
+		height:50px;
 	}
 	.two_column{
 		width:100%;
@@ -414,14 +424,20 @@ Apple iPod Touch (4th generation)
 		.post_info{
 		display: none !important;
 	}
+	.top_panel_wrap .logo_main {
+		height:50px;
+	}
 	.two_column{
 		width:100%;
 	}
 	body.index2 .header_mobile .logo_main {
 	    display: none !important;
 	}
-	.top_panel_wrap .logo_main {
-	 
+	
+	.about_img img{
+		width: 100%;
+		margin:20px;
+		padding:20px;
 	}
 	#logo_main{
 		display: none !important;
@@ -560,6 +576,12 @@ Samsung Galaxy
 	    margin-top: 0%;
 	    line-height: 16px;
 	}
+	.top_panel_wrap .logo_main {
+		height:50px;
+	}
+	.signature{
+		width:100%;
+	}
 	.two_column{
 		width:100%;
 	}
@@ -567,9 +589,12 @@ Samsung Galaxy
 	    color: #fff;
 	    font-size: 14px;
 	}
-	figure.img_home_sigmature{
-		display: none;
+	.about_img img{
+		width: 100%;
+		margin:20px;
+		padding:20px;
 	}
+	
 	.post_info{
 		display: none !important;
 	}
@@ -868,6 +893,9 @@ Samsung Galaxy
 	.two_column{
 		width:100%;
 	}
+	.top_panel_wrap .logo_main {
+		height:50px;
+	}
 	/* Login and Register */
 	.popup_wrap {
 		left: 50%;
@@ -951,7 +979,13 @@ Samsung Galaxy
 	.post_info{
 		display: none !important;
 	}
+	.top_panel_wrap .logo_main {
+		height:50px;
+	}
 	.two_column{
+		width:100%;
+	}
+	.signature{
 		width:100%;
 	}
 	/* Body sizes */
@@ -1045,9 +1079,15 @@ Samsung Galaxy
 	body.customization .sc_column_item_3{
 		margin-left: 25% !important;
 	}
+	.top_panel_wrap .logo_main {
+		height:50px;
+	}
 	.isotope_wrap .isotope_item {
 	
 		min-height: 300px;
+	}
+	.signature{
+		width:100%;
 	}
 	.two_column{
 		width:100%;
@@ -1267,7 +1307,9 @@ Samsung Galaxy
 	.top_panel_middle .logo img {
 		max-height:40px;
 	}
-	
+	.top_panel_wrap .logo_main {
+		max-width: 200px;
+	}
 	.top_panel_style_1 .contact_logo {
 		width:100%;
 	}
@@ -1700,6 +1742,13 @@ Samsung Galaxy
 Very common low res
 */
 @media (max-width: 1366px) {
+	.logo_main{
+		max-width: 100px;
+		padding:18px;
+	}
+	.top_panel_wrap .logo_main {
+		height:50px;
+	}
 	.widget_area .widget_calendar td .day_wrap {
 		height: 19px;
 		line-height: 18px;
@@ -1765,9 +1814,12 @@ Very common low res
 		padding-left: 0.75em;
 		padding-right: 0.75em;
 	}
+	.top_panel_wrap .logo_main {
+		height:50px;
+	}
 	.isotope_wrap .isotope_item {
 	
-		min-height: 300px;
+		min-height: 600px;
 	}
 	.menu_main_nav > li.menu-item-has-children > a {
 		padding-right: 1.5em;
@@ -1781,7 +1833,9 @@ Very common low res
 	h1 {
 		margin-top: 1em;
 	}
-
+	.top_panel_wrap .logo_main {
+		height:50px;
+	}
 	.sidebar_inner aside.widget {
 		padding: 2em 2.333em 1px;
 	}
@@ -1797,6 +1851,9 @@ Very common low res
 
 	body.shortcodes span.mejs-time-total.mejs-time-slider{
 		width:350px !important;
+	}
+	.top_panel_wrap .logo_main {
+		height:50px;
 	}
 	body.shortcodes .mejs-time-rail{
 		width: 70px !important;
@@ -1867,7 +1924,7 @@ Very common low res
 	    top: 54% !important;
 	}
 		h1.h1_home {
-	    font-size: 35px;
+	    font-size: 40px;
 	    margin-top: 15px;
 	}
 	.home_h2{
@@ -2112,7 +2169,7 @@ Very common low res
 	    margin-top: 15px;
 	}
 	.expert_clinical {
-	    font-size: 23px !important;
+	    font-size: 17px !important;
 	    color: #33302e;
 	    text-align: left;
 	    font-weight: 400;
@@ -2661,6 +2718,12 @@ Very common low res
 	#sc_form_message {
 	    width: 95.5% !important;
 	}
+	.signature{
+		width:100%;
+	}
+	h2 .sc_item_title{
+		font-size:1.2em;
+	}
 	.bg_make_booking {
 	    background-position: -50%;
 	}
@@ -3016,7 +3079,7 @@ Very common low res
 
 	/* Columns relayout (no columns) */
 	.row:not(.columns_fluid) > [class*="column-"], .columns_wrap:not(.columns_fluid) > [class*="column-"] {
-		width:85%;
+		width:100%;
 	}
 	.row.columns_fluid > [class*="column-"], .columns_wrap.columns_fluid > [class*="column-"] {
 		width:50%;
@@ -3239,6 +3302,7 @@ Very common low res
 		padding-right:10px;
 		padding-bottom:30px;
 		width:100% !important;
+		min-height: 400px !important;
 	}
 	.sc_scroll_horizontal .sc_blogger .isotope_item,
 	.sc_scroll_horizontal .sc_blogger [class*=column-],
@@ -3979,7 +4043,7 @@ Very common low res
 	    background-size: 8999%;
 	}
 	h1.custom_h1 {
-	    padding: 0px;
+		padding-bottom: 10px;
 	    margin: 0px;
 	    text-align: left !important;
 	    width: 250px;

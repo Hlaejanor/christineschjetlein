@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="no-nb" class="scheme_original">
 <?php
+    session_start();
+$headerString = "Psykoterapeut Christine Schjetlein - Kontakt meg";
  include "include/header.php";
  include 'include/postHandler.php';
+
+
  ?>
 
 
@@ -13,9 +17,9 @@
                 <div class="top_panel_fixed_wrap"></div>                
                 <!-- Header -->
                 <?php
- include "include/navbar.php"
+                    include "include/navbar.php"
 
- ?>
+                    ?>
                 <!-- /Header -->   
                 
             
@@ -51,7 +55,7 @@
                                         <div class="text_column content_element ">
                                             <div class="wrapper">
                                                 <p>
-                                                    christine@schjetlein.no<br> www.christineschjetlein.no
+                                                    <a style="color:black" href="mailto:christine@schjetlein.no">christine@schjetlein.no</a><br> www.christineschjetlein.no
                                                 </p>
                                             </div>
                                         </div>
