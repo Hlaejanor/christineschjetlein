@@ -117,8 +117,8 @@ function sendMailUser($newName, $newEmail){
     Dersom du finner denne eposten i spam-filtered, kan du høyreklikke på avsenderadressen og legge til i listen over godkjente avsendere
     ";
 
-   // mail("christine@schjetlein.no",$subject,$msg, $header);
-    mail("jens.tandstad@gmail.com",$subject,$msg, $header);
+   mail("christine@schjetlein.no",$subject,$msg, $header);
+    //mail("jens.tandstad@gmail.com",$subject,$msg, $header);
 
 }
 
