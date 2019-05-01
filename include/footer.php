@@ -6,13 +6,13 @@
                     <div class="content_wrap">
                         <div class="logo">
                             <a href="index.php">
-                                <img src="images/logo_2.png" class="logo_footer" alt="">
+                                <img style="max-width: 100%;" src="images/logo_2.png" class="logo_footer" alt="">
                             </a>
                         </div>
                         <div class="contacts_address">
                             <address class="address_right">
                                 <i class="icon icon-mail81"></i>
-                                <span><a style="color:#6f6f6f" href="mailto:christine@schjetlein.no">christine@schjetlein.no</a>
+                                <span><a style="color:#6f6f6f" href="mailto:&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;">&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;</a>
                                 </span>
                             </address>
                             <address class="address_left">

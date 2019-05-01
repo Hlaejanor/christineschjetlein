@@ -28,7 +28,7 @@
 	}
 	.cq-infobox {
 		height: 230px !important;
-		margin-left: -212px !important;
+		margin-left: -214px !important;
 		margin-top: -260px !important;
 		width: 420px !important;
 	}
@@ -2044,7 +2044,7 @@ Very common low res
 	    padding: 25px 0 15px 0px !important;
 	}
 	.cq-carouselcontent.ps-container.ps-active-y.slick-slide.slick-active {
-	    font-size: 12px !important;
+	    font-size: 14px !important;
 	}
 	body.home2 .sc_call_to_action_style_2 .sc_call_to_action_button {
 	    float: left;
@@ -2110,7 +2110,7 @@ Very common low res
 	}
 	.sc_services_style_services-4 .sc_services_item_title {
 	    margin: 0;
-	    font-size: 12px !important;
+	    font-size: 14px !important;
 	    line-height: 1.2857em;
 	}
 	.sc_services_style_services-4 .sc_services_item {
@@ -2135,16 +2135,16 @@ Very common low res
 	.isotope_wrap .isotope_item p, .isotope_wrap .isotope_item .post_info {
 	    margin-bottom: 1em;
 	    margin-top: 1em;
-	    font-size: 12px !important;
+	    font-size: 14px !important;
 	}
 	.scheme_original input[type="submit"], .scheme_original input[type="reset"], .scheme_original input[type="button"], .scheme_original button, .scheme_original .sc_button.sc_button_style_filled {
 	    color: #ffffff;
 	
 	}
 	.sc_button.sc_button_center{
-		margin-left: 38% !important;
+		margin-left: 25% !important;
 		margin-top:35% !important;
-		min-width: 20% !important;
+		min-width: 50% !important;
 	}
 	.post_item_classic .post_title {
 	    max-height: 2.5em;
@@ -2160,7 +2160,7 @@ Very common low res
 	    font-size: 44px !important;
 	}
 	input[type="submit"], input[type="reset"], input[type="button"], button, .sc_button {
-	    font-size: 12px !important;
+	    font-size: 14px !important;
 	    line-height: 1.4em;
 	    font-weight: 300;
 	}
@@ -2593,10 +2593,10 @@ Very common low res
 	    padding-bottom: 6px !important;
 	}
 	p{
-		font-size: 12px !important;
+		font-size: 14px !important;
 	}
 	.cq-carouselcontent.ps-container.ps-active-y.slick-slide.slick-active {
-	    font-size: 12px !important;
+	    font-size: 14px !important;
 	}
 	.bg_make_booking .row:not(.columns_fluid) > [class*="column-"], .columns_wrap:not(.columns_fluid) > [class*="column-"] {
 	    width: 49%;
@@ -2640,7 +2640,7 @@ Very common low res
 	    margin-top: 10px !important;
 	}
 	.cq-carouselcontent.ps-container.ps-active-y.slick-slide.slick-active {
-	    font-size: 12px !important;
+	    font-size: 14px !important;
 	}
 	.sc_events_style_events-1 .sc_events_item {
 	    padding: 25px !important;
@@ -2683,7 +2683,7 @@ Very common low res
 	
 	p.center {
 	    text-align: center;
-	    font-size: 12px !important;
+	    font-size: 14px !important;
 	}
 	.ih-item.square .info .post_title a {
 	    color: #fff;
@@ -3035,8 +3035,8 @@ Very common low res
 	    padding: 10px;
 	}
 	.sc_services_wrap .sc_item_descr{
-		width: 70%;
-		margin-bottom: 0px !important;
+		width: 100%;
+		margin-bottom: 20px !important;
 	}
 	.col_left {
 	    position: relative;
@@ -3749,6 +3749,7 @@ Very common low res
 	.sc_slider_swiper  .swiper-slide {
 		width: 280px !important;
 	}
+
 	body.home .col_left {
 	    position: relative;
 	    right: -22px !important;
@@ -4045,7 +4046,7 @@ Very common low res
 	h1.custom_h1 {
 		padding-bottom: 10px;
 	    margin: 0px;
-	    text-align: left !important;
+	    text-align: left ;
 	    width: 250px;
 	}
 	.col_left {

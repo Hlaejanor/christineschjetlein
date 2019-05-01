@@ -7,7 +7,7 @@
         <a href="index.php">Hjem</a>
     </li>
     <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
-        <a href="#">Veiledning</a>
+        <a >Veiledning</a>
         <ul class="sub-menu">
             <li class="menu-item">
                 <a href="psykoterapi.php">Psykoterapi</a>
@@ -36,7 +36,7 @@
     </li>
     
     <li class="menu-item menu-item-has-children">
-        <a href="">I media</a>
+        <a >I media</a>
         <ul class="sub-menu">
             <li class="menu-item">
                 <a href="innhold.php?type=blog">Blogg</a>

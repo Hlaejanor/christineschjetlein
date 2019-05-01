@@ -7,7 +7,7 @@
         public $htmlContent = 'the html content'; 
         public $published = '01.01.1970'; 
         public $image = "somepicture.jpg";
-        public $linkType = "pdf or link";
+        public $linkType = "pdf, link or buybook";
         public $linkUrl = "someUrl";
 
         public $featured = false;
@@ -64,6 +64,9 @@
                 case "pdf":
                 case "link":
                     return "content/artikler/bilder/".$this->image;
+                case "buybook":
+                   return "content/artikler/bilder/".$this->image;
+
 
             }
         }
@@ -91,6 +94,8 @@
                 case "pdf":
                 case "link":
                     return "Last ned artikkelen";
+                case "buybook":
+                    return "Kjøp boken";
                 
             }
 

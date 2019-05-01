@@ -61,9 +61,9 @@ $headerString = "Coach i Oslo";
                                                                 <div class="sc_services_item sc_services_item_3 even">
                                                                     <div class="sc_services_item_featured post_featured">
                                                                         <div class="post_thumb" data-title="hvorforvildu">
-                                                                            <a class="hover_icon hover_icon_link" href="coaching.php#mindfulness">
+                                                                         
                                                                                 <img alt="DinIdentitet" src="images/coaching_hvorfor.jpg">
-                                                                            </a>
+                                                                         
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_services_item_content">
@@ -82,9 +82,9 @@ $headerString = "Coach i Oslo";
                                                                 <div class="sc_services_item sc_services_item_5 even">
                                                                     <div class="sc_services_item_featured post_featured">
                                                                         <div class="post_thumb" data-title="hvafildugjore">
-                                                                            <a class="hover_icon hover_icon_link" href="psykoterapi.php">
+                                                                          
                                                                                 <img alt="Hva vil du gjøre" src="images/coaching_hva.jpg">
-                                                                            </a>
+                                                                           
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_services_item_content">
@@ -103,9 +103,9 @@ $headerString = "Coach i Oslo";
                                                                 <div class="sc_services_item sc_services_item_4 even">
                                                                     <div class="sc_services_item_featured post_featured">
                                                                         <div class="post_thumb" data-title="hvordanvildugafrem">
-                                                                            <a class="hover_icon hover_icon_link" href="coaching.php">
+                                                                         
                                                                             <img alt="Hvodan skal du gå frem" src="images/coaching_hvordan.jpg">
-                                                                            </a>
+                                                                         
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_services_item_content">
@@ -124,9 +124,9 @@ $headerString = "Coach i Oslo";
                                                                 <div class="sc_services_item sc_services_item_2 even">
                                                                     <div class="sc_services_item_featured post_featured">
                                                                         <div class="post_thumb" data-title="narvilduhadetgjennomfort">
-                                                                            <a class="hover_icon hover_icon_link" href="#">
+                                                                        
                                                                                 <img alt="Når vil du ha det gjennomført?" src="images/coaching_naar.jpg">
-                                                                            </a>
+                                                                     
                                                                         </div>
                                                                     </div>
                                                                     <div class="sc_services_item_content">
@@ -142,7 +142,11 @@ $headerString = "Coach i Oslo";
 
                                                         </div>
                                                         <!-- /swiper-slide -->
-                                                       
+                                                        <div class="sc_slider_controls_wrap">
+                                                            <a class="sc_slider_prev" href="#"></a>
+                                                            <a class="sc_slider_next" href="#"></a>
+                                                        </div>
+                                                        <div class="sc_slider_pagination_wrap"></div>
                                                         <div class="sc_slider_pagination_wrap"></div>
                                                     </div>
                                                 </div>

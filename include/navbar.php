@@ -12,7 +12,7 @@
                     <div class="top_panel_top_user_area">
                         <div style="margin-right:200px" class="top_panel_top_contact_area contact_email">
                             <i class="icon icon-mail81"></i>
-                            <span>christine@schjetlein.no
+                            <span><a style="font-size: 100%;" href="mailto:&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;">&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;</a>
                             </span>
                         </div>
                     <div class="top_panel_top_contact_area contact_address" style="margin-left:25px">
@@ -82,7 +82,7 @@
                 <div class="contact_field contact_phone">
                     <span class="contact_icon icon-mail"></span>
                     <span class="contact_label contact_email"></span>
-                    <span class="contact_email"><a href="mailto:christine@schjetlein.no">christine@schjetlein.no</a></span>
+                    <span class="contact_email"><a href="mailto:&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;">&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;</a></span>
                 </div>
             </div>                            
         <!-- /panel_middle -->

@@ -1,7 +1,7 @@
 <?php
 include "contact-form-handler.php";
 ?>
-<div class="form_contact_page_bg">
+<div class="form_contact_page_bg" style="<?php echo $contactFormStyle;?>">
     <div class="page_content_wrap page_paddings_no">
         <div class="content_wrap ">
             <div class="content">
@@ -12,9 +12,9 @@ include "contact-form-handler.php";
                             <h2 class="sc_form_title sc_item_title">
                                 <?php
 
-                                    $message = verifyEmailPostSubmit();
+                                    $message = verifyEmailPostSubmit($formHeaderText);
                                 
-                                    echo "<h1>".$message[1]."</h1>";
+                                    echo "<h1 style='margin-bottom:20px'>".$message[1]."</h1>";
                                   
                                     if($message[0] == true){
                                 ?>
@@ -47,7 +47,7 @@ include "contact-form-handler.php";
                                         </div>
                                         </div>
                                 <div class="sc_form_item sc_form_button">
-                                    <input type="SUBMIT" name="submit" placeholder="send" value="Meld meg på">
+                                    <input style="background-color:#72b5ca;width:70%;margin-left:0px;height:40px" type="SUBMIT" name="submit" placeholder="send" value="Meld meg på">
                                     
                                 </div>                                                            
                             </form>

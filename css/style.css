@@ -3186,6 +3186,7 @@ blockquote > p > a:hover:after {
 	margin-bottom: 1em;
 	padding-bottom: 1.2em;
 }
+
 .post_item_classic .post_descr .sc_button {
 	margin-bottom: 0.5em;
 }
@@ -3690,6 +3691,12 @@ blockquote > p > a:hover:after {
 	padding: 1em;
 	overflow: hidden;
 }
+.blue_submit input[type="submit"]{
+
+	background-color: #21759b;
+
+}
+
 .pagination_slider .pager_slider .sc_slider {
 	width: 300px;
 	height:230px;

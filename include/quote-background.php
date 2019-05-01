@@ -7,7 +7,7 @@
                     <div class="sc_form_wrap scheme_light" style="margin-bottom:50px;">
                         
                             <div class="sc_services_descr sc_item_descr">
-                                    <blockquote style="text-align:center;background-color:unset;font-size:40px"> <strong>Vi blir ikke modige av å vente, men ved å våge.</strong></blockquote>
+                                    <blockquote style="text-align:center;background-color:unset;font-size:30px;line-height:normal;"> <strong>Vi blir ikke modige av å vente, men ved å våge.</strong></blockquote>
                        
                                     </div>    
                          

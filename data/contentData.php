@@ -3,6 +3,15 @@ include 'contentEntryClass.php';
 $blog_array = [];
 
 
+
+$blog_array[] = new ContentEntryClass(
+    "LivsmestringForIdentitetiEndring", '"Bitchen" og "Buddha\'n"', 
+    "Om hvordan transformere indre motsetninger til mening og fornyelse.", 
+    "11_blogg_april_2019.txt",
+    "Blogg, Mars 2018", "11_blogg_april_2019.jpg", "blog", null, true);
+
+
+
 $blog_array[] = new ContentEntryClass(
     "LivsmestringForIdentitetiEndring", "LIVSMESTRING for identitet i endring", 
     "Fremover går vi fra terapi til trening for realisme og livsglede, fra selvutvikling til sosial utvikling. Vi trenger en dyp tilpasningsevne til klodens mange utfordringer.", 
@@ -148,7 +157,14 @@ $article_array[] = new ContentEntryClass(
     
     
 $article_array[] = new ContentEntryClass(
-    "RikSomFantenBok", "RIK SOM FANTEN, Kunsten å strekke pengene uten å strekke deg.", "LIVSGLEDE vokser på trær og lykken lever i en soloppgang. Og, barnesmil kan hvert fall ikke kjøpes. Vi handler over evne og kjøper oss til indre fattigdom, fordi vi glemmer å spørre hva som virkelig gir oss glede.", "null", "Noras Ark, 2005", "16_artikkel_rik_som_fanten.jpg", "link", "https://www.tanum.no/_rik-som-fanten-christine-schjetlein-aud-dalsegg-9788279790327"); 
+    "RikSomFantenBok", 
+    "RIK SOM FANTEN, Kunsten å strekke pengene uten å strekke deg.", 
+    "Bevisstgjøring i forhold til personlig økonomi.",
+     "null", 
+     "Noras Ark, 2005", 
+     "16_artikkel_rik_som_fanten.jpg", 
+     "buybook",
+     "https://www.tanum.no/_rik-som-fanten-christine-schjetlein-aud-dalsegg-9788279790327"); 
     
     
     

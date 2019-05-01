@@ -5489,7 +5489,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 	}
 	.sc_table table {
 	    max-width: 100% !important;
-	    font-size: 12px !important;
+	    font-size: 14px !important;
 	}
 	span.mejs-time-total.mejs-time-slider {
 		width: 55% !important;
@@ -5499,7 +5499,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 		font-weight: bold;
 	}
 	#bac_img p,#bac_img2 p,#bac_img3 p,#bac_img4 p,#bac_img5 p{
-		font-size: 12px !important; 
+		font-size: 14px !important; 
 		text-transform: normal;
 	}
 	body.typography h1{

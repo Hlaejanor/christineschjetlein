@@ -1,10 +1,14 @@
+<?php
+   session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="no-nb" class="scheme_original">
 <?php
-    session_start();
+ 
 $headerString = "Psykoterapeut Christine Schjetlein - Kontakt meg";
  include "include/header.php";
- include 'include/postHandler.php';
+
 
 
  ?>
@@ -55,7 +59,7 @@ $headerString = "Psykoterapeut Christine Schjetlein - Kontakt meg";
                                         <div class="text_column content_element ">
                                             <div class="wrapper">
                                                 <p>
-                                                    <a style="color:black" href="mailto:christine@schjetlein.no">christine@schjetlein.no</a><br> www.christineschjetlein.no
+                                                    <a style="color:black" href="mailto:&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;">&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;</a><br> www.christineschjetlein.no
                                                 </p>
                                             </div>
                                         </div>

@@ -160,7 +160,7 @@ include "include/navbar.php"
 
 
                                             <div class="sc_testimonials sc_testimonials_style_testimonials-3 margin_top_medium margin_bottom_huge index_testimonials">
-                                                <div class="sc_slider_swiper swiper-slider-container sc_slider_pagination sc_slider_pagination_bottom sc_slider_nocontrols" data-interval="15000" data-slides-per-view="2" data-slides-space="30" data-slides-min-width="250">
+                                                <div class="sc_slider_swiper swiper-slider-container sc_slider_pagination sc_slider_pagination_bottom sc_slider_nocontrols" data-interval="35000" data-slides-per-view="2" data-slides-space="30" data-slides-min-width="250">
                                                     <div class="slides swiper-wrapper">
 
                                                         <div class="swiper-slide">

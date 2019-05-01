@@ -1,10 +1,13 @@
 <?php
 session_start();
-function verifyEmailPostSubmit()
+function verifyEmailPostSubmit($defaultMessage)
 {
-
-    if(!$_POST){
+   
+    if(!$_POST && $defaultMessage == ""){
         return  Array(true, "Meld deg på mitt nyhetsbrev");
+    }
+    if(!$_POST && $defaultMessage){
+        return  Array(true, $defaultMessage);
     }
     if(!isset($_POST['email'])){
         return  Array(true, "Du må skrive inn en gyldig epostadresse");
@@ -80,7 +83,7 @@ function getMailHeader($recipient){
 
     $header  = 'MIME-Version: 1.0' . "\r\n";
     $header .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    $header .= "To: <$to>" . "\r\n";
+    $header .= "To: <$recipient>" . "\r\n";
     $header .= 'From: noreply@christinechjetlein.no \r\n';
 
     return $header;
@@ -90,18 +93,18 @@ function sendMailAdmin($newName, $newEmail){
 
     $subject = "Påmelding nyhetsbrev";
     $header = getMailHeader($newEmail);
-    $msg = "Du har motatt en påmelding på nyhetsbrev
+    $msg = nl2br("Du har motatt en påmelding på nyhetsbrev\r\n \r\n
 
 
-    Navn : ".$newName."
-    Epost : ".$newEmail."
+    Navn : ".$newName."\r\n
+    Epost : ".$newEmail."\r\n
     
-    har meldt seg på på hjemmesiden.
+    har meldt seg på på hjemmesiden.\r\n
 
     Vær oppmerksom på spam og phishing forsøk, og sjekk om personen er ekte før du legger til i mailchimp
-    ";
+    ");
 
-    mail("christine@schjetlein.no",$subject,$msg, $header);
+    mail("&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;",$subject,$msg, $header);
 
 
 }
@@ -109,16 +112,18 @@ function sendMailUser($newName, $newEmail){
 
     $subject = "Velkommen til nyhetsbrev";
     $header = getMailHeader($newEmail);
-    $msg = "Du er påmeldt nyhetsbrevet til Christine Schetlein. Velkommen!
+    $msg = nl2br("Du er påmeldt nyhetsbrevet til Christine Schjetlein. Velkommen!\r\n
     
-    Navn : ".$newName."
-    Epost : ".$newEmail."
-    
-    Dersom du finner denne eposten i spam-filtered, kan du høyreklikke på avsenderadressen og legge til i listen over godkjente avsendere
-    ";
+    Navn : ".$newName."\r\n
+    Epost : ".$newEmail."\r\n
+    Det vil kunne ta en dag eller to før du blir påmeldt. \r\n
+    Dersom du finner denne eposten i spam-filteret, kan du høyreklikke på avsenderadressen og legge til i listen over godkjente avsendere
+    ");
 
-   mail("christine@schjetlein.no",$subject,$msg, $header);
+   // mail("&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#110;&#101;&#064;&#115;&#099;&#104;&#106;&#101;&#116;&#108;&#101;&#105;&#110;&#046;&#110;&#111;",$subject,$msg, $header);
     //mail("jens.tandstad@gmail.com",$subject,$msg, $header);
+
+    mail($newEmail, $subject,$msg, $header);
 
 }
 

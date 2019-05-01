@@ -9,7 +9,7 @@
                             <div class="sc_section sc_section_block margin_left_large alignleft">
                                 <div class="sc_section_inner">
                                     <div class="sc_section_content_wrap">
-                                        <h1 class="sc_title sc_title_regular h1_home custom_h1">
+                                        <h1 style="text-align:center" class="sc_title sc_title_regular h1_home custom_h1">
                                         Økt livskompetanse
                                         </h1>
                                    

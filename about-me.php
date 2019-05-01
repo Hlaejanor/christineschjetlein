@@ -1,8 +1,11 @@
 
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="no-nb" class="scheme_original">
 <?php
-    session_start();
+
  include "include/header.php"
 
  ?>

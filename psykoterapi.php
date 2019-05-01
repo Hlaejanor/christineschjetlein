@@ -56,7 +56,7 @@ include "include/navbar.php"
     <div class="page_content_wrap " style="background-color:#eaf5f9;min-height:500px;margin-bottom:0px;margin-top:0px;padding-bottom:0px">
         <div class="content_wrap">
             <div class="content sc_services sc_services_style_services-4 "  id="selvinnsikt">
-                <h3>Økt selvinnsikt med mindfulness
+                <h3 style="text-align:center">Økt selvinnsikt med mindfulness
                 </h3>
                 <p >
                          
@@ -67,7 +67,7 @@ Utgangspunktet er et positivt menneskesyn, som er ressurs- og vekstorientert, sl
 </p>    
            
                                      
-                           <div class=" sc_services_button sc_item_button">
+                           <div class=" sc_services_button sc_item_button" style="margin-bottom:1em;margin-top:1em;">
                                         <a href="kontakt.php" class="sc_button sc_button_square sc_button_style_filled   sc_button_size_small">
                                         Kontakt meg
                                       </a>

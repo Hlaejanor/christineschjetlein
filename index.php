@@ -1,29 +1,32 @@
-<!DOCTYPE html>
+<?php
+session_start();
+
+?><!DOCTYPE html>
 <html lang="no-nb" class="scheme_original">
 
 <?php
-    session_start();
-    $headerString = "Psykoterapeut Christine A. Schetlein ";
-    include "include/header.php"
 
- ?>
-  
+$headerString = "Psykoterapeut Christine A. Schetlein ";
+include "include/header.php"
+
+?>
+
     <body class="page cloe_brooks_body body_style_wide body_transparent theme_skin_less article_style_stretch layout_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide">
         <div class="body_wrap">
             <div class="page_wrap">
-                <div class="top_panel_fixed_wrap"></div>                
+                <div class="top_panel_fixed_wrap"></div>
                 <!-- Header -->
 <?php
-                    include "include/navbar.php"
+include "include/navbar.php"
 ?>
                 <!-- /Header -->
 
-                <!-- header_mobile --> 
-          
+                <!-- header_mobile -->
+
             </div>
 
             <!-- slider_wrap -->
-            <div class="slider_wrap slider_fullwide slider_engine_revo slider_alias_home-1">               
+            <div class="slider_wrap slider_fullwide slider_engine_revo slider_alias_home-1">
                 <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper rev_slider_wrapper11 fullwidthbanner-container">
                     <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" data-version="5.2.6">
                         <ul>
@@ -41,76 +44,76 @@
                                 data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on"
                                 >
                                                                     <span class="post_readmore_label">Referanser</span>
-                                 </a> 
+                                 </a>
                             </li>
                             <!-- /slide-1 -->
 
                             <!-- slide-2 -->
                             <li data-index="rs-2" data-transition="fade,crossfade" data-slotamount="default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default,default" data-easeout="default,default" data-masterspeed="1000,default" data-thumb="images/slide2-100x50.jpg" data-rotate="0,0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                 <img src="images/ginni_header_stor.jpg" alt="" title="Empathy" width="4800" height="2000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                         
+
                                 <div class="tp-caption home1_title home1_title21 tp-resizeme" id="slide-1-layer-2" data-x="5" data-y="190" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;" data-start="1250" data-splitin="none" data-splitout="none" data-responsive_offset="on">
                                 “Beyond the rightness or wrongness of things <br> there
 is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
-        </div>
+                                 </div>
                                 <a     href="kontakt.php" class="post_readmore sc_button sc_button_style_filled sc_button_center">
                                                                     <span class="post_readmore_label">Kontakt meg</span>
-                                 </a> 
+                                 </a>
                             </li>
 
 
-                         
+
                             <!-- /slide-2 -->
 
                             <!-- slide-3 -->
                             <li data-index="rs-3" data-transition="fade,crossfade" data-slotamount="default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default,default" data-easeout="default,default" data-masterspeed="1000,default" data-thumb="images/slide5-100x50.jpg" data-rotate="0,0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                 <img src="images/maur_stor_header.jpg" alt="" title="slide5" width="1900" height="640" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                
+
                                 <div class="tp-caption home_1_subtitle home_1_subtitle11 tp-resizeme" id="slide-3-layer-2" data-x="10" data-y="160" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on">
                                    BLOGG
                                 </div>
-                           
+
                                 <div class="tp-caption home1_title home1_title21 tp-resizeme" id="slide-1-layer-2" data-x="5" data-y="190" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;" data-start="1250" data-splitin="none" data-splitout="none" data-responsive_offset="on">
                                     Veien blir til mens du går. <br>  Små skritt med mye vennlighet og varme.
                                 </div>
                                 <a     href="innhold.php?type=blog" class="post_readmore sc_button sc_button_style_filled sc_button_center">
                                                                     <span class="post_readmore_label">Blogg</span>
-                                 </a> 
-                               
+                                 </a>
+
                             </li>
                             <!-- slide-3 -->
                              <!-- slide-4 -->
                              <li data-index="rs-4" data-transition="fade,crossfade" data-slotamount="default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default,default" data-easeout="default,default" data-masterspeed="1000,default" data-thumb="images/slide2-100x50.jpg" data-rotate="0,0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                 <img src="images/hule_meditasjon_stor_header.jpg" alt="" title="Empathy" width="4800" height="2000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                              
+
                                 <div class="tp-caption home1_title home1_title21 tp-resizeme" id="slide-1-layer-2" data-x="5" data-y="190" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;" data-start="1250" data-splitin="none" data-splitout="none" data-responsive_offset="on">
                                 “Inside any deep asking is the answering”  <span class="attribution">Rumi</span>
                                 </div>
-                               
-                             
+
+
                             </li>
                             <!-- slide- -->
                         </ul>
                         <div class="tp-bannertimer tp-bottom tp-bannertimer11"></div>
                     </div>
                 </div>
-            </div>   
-            <!-- /slider_wrap -->        
+            </div>
+            <!-- /slider_wrap -->
 
             <!-- content -->
             <div class="content">
                 <div class="post_item post_item_single post_featured_default">
                     <section class="post_content">
-                       
+
 
                         <!-- jeg tilbyr  -->
                         <div class="sc_services_wrap">
-                                <div class="sc_services sc_services_style_services-4 sc_services_type_icons cd_accent1_hover margin_top_huge margin_bottom_huge">
+                            <div class="sc_services sc_services_style_services-4 sc_services_type_icons cd_accent1_hover margin_top_huge margin_bottom_huge">
                                 <h1 class="home_h2 sc_services_title sc_item_title " style="text-align:center;">Dine muligheter</h1>
-                     
-                               
+
+
                                     <div class="sc_services_descr sc_item_descr">
-                                    Mitt bidrag er å skape trygge rammer så vårt samarbeid kan styrke ditt indre kompass. 
+                                    Mitt bidrag er å skape trygge rammer så vårt samarbeid kan styrke ditt indre kompass.
                                     </div>
                                        <div class="sc_columns columns_wrap">
                                       <div class="column-1_2 col_right">
@@ -120,7 +123,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                   <span class="sc_services_item_title">
                                                   Positiv Psykologi -  bli proaktiv
                                                   </span>
-                                              </a> 
+                                              </a>
                                           </div>
                                       </div>
                                         <div class="column-1_2 col_left">
@@ -131,7 +134,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                   Integritet – i en verden i forandring
 
                                                   </span>
-                                              </a> 
+                                              </a>
                                           </div>
                                         </div>
                                         <div class="column-1_2 col_right">
@@ -149,9 +152,9 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                               <a href="psykoterapi.php">
                                                   <span class="sc_icon icon-check71"></span>
                                                   <span class="sc_services_item_title">
-                                                  Øko-psykologi – heling for deg & kloden 
+                                                  Øko-psykologi – heling for deg & kloden
                                                   </span>
-                                              </a> 
+                                              </a>
                                           </div>
                                         </div>
                                         <div class="column-1_2 col_right">
@@ -159,9 +162,9 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                               <a href="coaching.php">
                                                   <span class="sc_icon icon-check71"></span>
                                                   <span class="sc_services_item_title">
-                                                  Livsmestring - bevisst krysstrening 
+                                                  Livsmestring - bevisst krysstrening
                                                   </span>
-                                              </a> 
+                                              </a>
                                           </div>
                                         </div>
                                         <div class="column-1_2 col_left">
@@ -172,7 +175,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                   Aktiv Aksept – møte spenningsfelt
 
                                                   </span>
-                                              </a> 
+                                              </a>
                                           </div>
                                         </div>
                                         <div class="column-1_2 col_right">
@@ -180,9 +183,9 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                               <a href="psykoterapi.php">
                                                   <span class="sc_icon icon-check71"></span>
                                                   <span class="sc_services_item_title">
-                                                  Vedvarende Virkning – helhetlig 
+                                                  Vedvarende Virkning – helhetlig
                                                   </span>
-                                              </a> 
+                                              </a>
                                           </div>
                                         </div>
                                         <div class="column-1_2 col_left">
@@ -193,7 +196,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                   Livsglede – mellom mikro & makroskala
 
                                                   </span>
-                                              </a> 
+                                              </a>
                                           </div>
                                         </div>
                                         <div class="column-1_2 col_right">
@@ -201,9 +204,9 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                               <a href="coaching.php">
                                                   <span class="sc_icon icon-check71"></span>
                                                   <span class="sc_services_item_title">
-                                                  Vennlighet & Varme - for deg selv 
+                                                  Vennlighet & Varme - for deg selv
                                                   </span>
-                                              </a> 
+                                              </a>
                                           </div>
                                         </div>
                                         <div class="column-1_2 col_left">
@@ -211,10 +214,10 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                               <a href="psykoterapi.php">
                                                   <span class="sc_icon icon-check71"></span>
                                                   <span class="sc_services_item_title">
-                                                  Paradokser - porter til potensialer 
+                                                  Paradokser - porter til potensialer
 
                                                   </span>
-                                              </a> 
+                                              </a>
                                           </div>
                                         </div>
                                     </div>
@@ -228,7 +231,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
 
 
 
-                                                        
+
                         <!-- About Me -->
                         <div class="wrapper img_cover_about_me">
                             <div class="sc_content content_wrap">
@@ -253,20 +256,20 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                             <p class="about_text_2">
                                                             Min ekspertise innen selvutvikling og livsveiledning er et resultat av mer enn 30 år innen selvutvikling, psykoterapi og mindfulness praksis. Du blir møtt i åpenhet og ærlighet. Utfra faglig tyngde inspirerer jeg med engasjement og humor. Nysgjerrig på å høre mer? Les mer i artiklene og bloggene mine på denne siden eller ta kontakt for en time.
                                                             </p>
-                                                               
+
 
                                                             <figure class="img_home_sigmature sc_image sc_image_shape_square margin_top_small margin_bottom_small">
-                                                               
+
                                                                  <a href="kontakt.php" class="post_readmore sc_button  sc_button_style_filled  ">
                                                                     <span class="post_readmore_label">Kontakt meg</span>
-                                                                </a> 
+                                                                </a>
                                                                 <img class="signature" style="margin:10px" src="images/underskrift.png">
                                                             </figure>
 
                                                         </div>
-                                                    
+
                                                     </div>
-                                                  
+
                                                 </div>
                                             </div>
                                         </div>
@@ -274,26 +277,26 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                 </div>
                             </div>
                         </div>
-                        <!-- /About Me -->  
+                        <!-- /About Me -->
 
                         <!-- How I Can Help You -->
                         <div class="page_content_wrap page_paddings_no">
                             <div class="content_wrap">
                                 <div class="content">
                                     <div class="itemscope post_item post_item_single post_featured_default post_format_standard">
-                                        <section class="post_content">                               
+                                        <section class="post_content">
                                             <div class="wrapper">
                                                 <div class="sc_services_wrap">
                                                     <div class="sc_services sc_services_style_services-1 sc_services_type_images margin_top_huge margin_bottom_huge">
-                                                   
+
                                                         <h1 class="home_h2 sc_services_title sc_item_title " style="text-align:center;"> Dette tilbyr jeg</h1>
-                     
+
                                                         <div class="sc_services_descr sc_item_descr">
                                                               </div>
                                                         <div class="sc_slider_swiper swiper-slider-container sc_slider_nopagination sc_slider_controls sc_slider_controls_bottom" data-interval="5461000" data-slides-per-view="4" data-slides-space="30" data-slides-min-width="250">
-                                                            <div class="slides swiper-wrapper">   
+                                                            <div class="slides swiper-wrapper">
 
-                                                          
+
 
                                                                 <!-- swiper-slide Mindfulness-->
                                                                 <div class="swiper-slide">
@@ -318,7 +321,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /swiper-slide -->
-                                                                  <!-- /swiper-slide Psykoterapi -->        
+                                                                  <!-- /swiper-slide Psykoterapi -->
                                                                   <div class="swiper-slide">
                                                                     <div class="sc_services_item_wrap">
                                                                         <div class="sc_services_item sc_services_item_5 even">
@@ -363,7 +366,7 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <!-- swiper-slide --> 
+                                                                <!-- swiper-slide -->
                                                                       <!-- swiper-slide Kvinnekurs -->
                                                                       <div class="swiper-slide">
                                                                     <div class="sc_services_item_wrap">
@@ -397,26 +400,26 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>                                          
+                                            </div>
                                         </section>
-                                    </div>                       
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- /How I Can Help You -->     
+                        <!-- /How I Can Help You -->
 
                         <!-- WHAT HAPPY CLIENTS SAY -->
                         <div class="page_content_wrap page_paddings_no testimonials_bg">
                             <div class="content_wrap">
                                 <div class="content">
-                                    <div class="itemscope post_item post_item_single post_featured_default post_format_standard">                
+                                    <div class="itemscope post_item post_item_single post_featured_default post_format_standard">
                                         <div class="wrapper">
                                             <h1 class="h1_home sc_title sc_align_center margin_top_huge margin_bottom_null text_center testimonial_text">
                                                 Referanser
                                             </h1>
                                             <div style="font-size: 17px;color: #black;line-height: 30px;text-align: center" class="vc_custom_heading ls1px">Hva mine klienter sier om meg</div>
-                                            
-                                            
+
+
                                             <div class="sc_testimonials sc_testimonials_style_testimonials-3 margin_top_medium margin_bottom_huge index_testimonials">
                                                 <div class="sc_slider_swiper swiper-slider-container sc_slider_pagination sc_slider_pagination_bottom sc_slider_nocontrols" data-interval="9020" data-slides-per-view="2" data-slides-space="30" data-slides-min-width="250">
                                                     <div class="slides swiper-wrapper">
@@ -513,22 +516,22 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                       
+
                                                     </div>
                                                     <div class="sc_slider_controls_wrap">
                                                         <a class="sc_slider_prev" href="#"></a>
                                                         <a class="sc_slider_next" href="#"></a>
                                                     </div>
                                                     <div class="sc_slider_pagination_wrap"></div>
-                                                </div> 
+                                                </div>
                                                 <div class="scheme_original sc_services_button sc_item_button">
                                         <a style="background-color:#72b5ca" href="referanser.php" class="sc_button sc_button_square sc_button_style_filled   sc_button_size_small">
                                         Les flere referanser
                                       </a>
                                     </div>
                                             </div>
-                                           
-                                                                                   
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -538,24 +541,24 @@ is a field, I’ll meet you there.”   <span class="attribution">Rumi</span>
 
                         <!-- Featured Articles -->
                         <?php
- include "include/featured-blog.php"
+include "include/featured-blog.php"
 
- ?>     
+?>
                         <!-- /Featured Articles -->
-                        
+
                         <!-- Contact Form -->
                         <?php
-                            include "include/contact-form.php";
-                        ?>                               
-                        <!--/ Contact Form -->              
-                 
+include "include/contact-form.php";
+?>
+                        <!--/ Contact Form -->
+
                 </div>
-            </div> 
+            </div>
             <!-- /content -->
 <?php
- include "include/footer.php"
+include "include/footer.php"
 
- ?>             
+?>
     </body>
 </html>
 
