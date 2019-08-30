@@ -2592,9 +2592,7 @@ Very common low res
 	    vertical-align: middle;
 	    padding-bottom: 6px !important;
 	}
-	p{
-		font-size: 14px !important;
-	}
+
 	.cq-carouselcontent.ps-container.ps-active-y.slick-slide.slick-active {
 	    font-size: 14px !important;
 	}
@@ -2675,11 +2673,6 @@ Very common low res
 	    height: auto;
 	}
 	
-	.scheme_original .sc_services_item {
-	 
-	 
-	}
-
 	
 	p.center {
 	    text-align: center;
@@ -2946,7 +2939,7 @@ Very common low res
 
 	/* Body sizes */
 	.body_style_boxed .page_wrap {		width:100%; }
-	.slider_boxed, .content_wrap, .content_container {	width:280px; }
+	.slider_boxed, .content_wrap, .content_container {	width:340px; }
 
 	/* Content and Sidebar */
 	.sidebar_show .content { width: 100%; float: none; }
@@ -3746,9 +3739,7 @@ Very common low res
 		padding: 0.25em 0.6em !important;
 		top: 1.5em !important;
 	}
-	.sc_slider_swiper  .swiper-slide {
-		width: 280px !important;
-	}
+
 
 	body.home .col_left {
 	    position: relative;
@@ -3817,6 +3808,8 @@ Very common low res
 	    padding-top: 0px;
 	    margin-bottom: 8px;
 	}
+
+	.slider_boxed, .content_wrap, .content_container {	width:280px; }
 	body.home2 footer.contacts_wrap .logo img{
 		max-width: 100% !important;
 	}
@@ -3936,7 +3929,7 @@ Very common low res
 	    float: none;
 	}
 	h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, address {
-	    margin: 0;
+	    
 	    line-height: 24px;
 	}
 	.contacts_wrap .contacts_address .address_left {
@@ -4037,7 +4030,7 @@ Very common low res
 	}
 	.img_cover_about_me {
 	    background-color: #fbedde !important;
-	    max-height: 1000px !important;
+	    max-height: 1300px !important;
 	}
 	body.home2 .bg_make_booking {
 	    margin-top: 0px;

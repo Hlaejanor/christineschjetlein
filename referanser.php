@@ -82,10 +82,7 @@
                                 </div>
                                 
                             </div>
-                            <div class="sc_slider_controls_wrap">
-                                <a class="sc_slider_prev" href="#"></a>
-                                <a class="sc_slider_next" href="#"></a>
-                            </div>
+                       
                             <div class="sc_slider_pagination_wrap"></div>
                         </div>
                     </div>
@@ -163,10 +160,7 @@
                                 </div>      
                                         
                             </div>
-                            <div class="sc_slider_controls_wrap">
-                                <a class="sc_slider_prev" href="#"></a>
-                                <a class="sc_slider_next" href="#"></a>
-                            </div>
+                           
                             <div class="sc_slider_pagination_wrap"></div>
                             </div>
                         </div>                    

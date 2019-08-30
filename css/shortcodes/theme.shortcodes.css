@@ -4068,7 +4068,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 	display:inline-block;
 	vertical-align:top;
 	border: 0;
-	background-color: #FFFFFF;
+	background-color: #e3d3c2;
 	width:12px;
 	height:12px;
 	margin:0 9px 0 0;
@@ -4083,7 +4083,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 }
 .sc_slider_swiper .sc_slider_pagination_wrap .swiper-pagination-bullet-active,
 .sc_slider_swiper .sc_slider_pagination_wrap span:hover {
-	background-color:#ddd;
+	background-color:#e3d3c2;
 }
 
 /* Full pagination - posts titles */

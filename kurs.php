@@ -54,7 +54,7 @@ include "include/navbar.php"
                                                     <div class="sc_services_descr sc_item_descr">Kvinnekursene til Christine A. Schjetlein holdes i vakre og fredelige natur-omgivelser, som nærer det indre arbeidet. Du lærer å definere din voksne kvinnelighet gjennom:
 
                                                             </div>
-                                                    <div class="sc_slider_swiper swiper-slider-container sc_slider_nopagination sc_slider_controls sc_slider_controls_bottom" data-interval="9000" data-slides-per-view="4" data-slides-space="30" data-slides-min-width="250">
+                                                    <div class="sc_slider_swiper swiper-slider-container sc_slider_nopagination sc_slider_controls sc_slider_controls_bottom" data-interval="9000" data-slides-per-view="4" data-slides-space="30" data-slides-min-width="300">
                                                         <div class="slides swiper-wrapper">
 
 

@@ -2,35 +2,49 @@
 include 'contentEntryClass.php';
 $blog_array = [];
 
+$blog_array[] = new ContentEntryClass(
+    "KlimaEndringerInnenfra", 'Klimaendringer innenfra', 
+    "Om psykologi og økologi er fag på to forskjellige fakultet på universitet så er de i virkelighetens univers ett. Symptomer vi har i kropp og sinn, som i naturen, snakker til oss – vårt ansvar er å lytte dypere, føle og oppfatte sammenhengene bak. Hvis ikke vi lytter - hvem skal da ?", 
+    "15_blogg_august_2019.txt",
+    "Blogg, August 2018", "15_blogg_august_2019.jpg", "blog", null, true);
+
+
 
 
 $blog_array[] = new ContentEntryClass(
-    "LivsmestringForIdentitetiEndring", '"Bitchen" og "Buddha\'n"', 
+    "PustForLivet", 'Pust for livet!', 
+    "Pust forbinder bevissthet og kropp. Vil du nyte livet så pust! Oppmerksomhet på ditt åndedrett er en hovednøkkel til vitalitet, tilstedeværelse og livsglede.", 
+    "12_blogg_mai_2019.txt",
+    "Blogg, Mai 2018", "12_blogg_mai_2019.jpg", "blog", null, true);
+
+
+
+$blog_array[] = new ContentEntryClass(
+    "BitchenOgBuddhaen", '"Bitchen" og "Buddha\'n"', 
     "Om hvordan transformere indre motsetninger til mening og fornyelse.", 
     "11_blogg_april_2019.txt",
-    "Blogg, Mars 2018", "11_blogg_april_2019.jpg", "blog", null, true);
-
+    "Blogg, April 2018", "11_blogg_april_2019.jpg", "blog", null, true);
 
 
 $blog_array[] = new ContentEntryClass(
     "LivsmestringForIdentitetiEndring", "LIVSMESTRING for identitet i endring", 
     "Fremover går vi fra terapi til trening for realisme og livsglede, fra selvutvikling til sosial utvikling. Vi trenger en dyp tilpasningsevne til klodens mange utfordringer.", 
     "10_blogg_mars_2019.txt",
-    "Blogg, Mars 2019", "10_blogg_mars_2019.jpg", "blog", null, true);
+    "Blogg, Mars 2019", "10_blogg_mars_2019.jpg", "blog", null, false);
 
 
 $blog_array[] = new ContentEntryClass(
     "MorkeOgVinterMeditasjon", "Mørke og Vintermeditasjon", 
     "Vi trenger vinteren for å føle en naturlig vei innover i oss selv. Årstidens stillhet, den iboende sakteheten gir nødvendige pauser i naturens så vel som vår egen livsrytmen – hvis vi tillater oss å kjenne etter og ta imot. Mørketid er god meditasjonstid.", 
     "09_blogg_januar_2019.txt",
-    "Blogg, Januar 2019", "09_blogg_januar_2019.jpg", "blog", null, true);
+    "Blogg, Januar 2019", "09_blogg_januar_2019.jpg", "blog", null, false);
     
     
 $blog_array[] = new ContentEntryClass(
     "UsikkerhetDittOppvaakningskall", "Usikkerhet – ditt oppvåkningskall", 
     "Hvordan takle og forstå usikkerhet kan være forvirrende for de fleste. Fordi det er såpass ubehagelig vil vi helst ikke føle oss usikre. Livsveiledning kan hjelpe deg å sortere. For hva om du kan lære å tåle virringen, så du får et nødvendig pusterom til ettertanke? For den varsler at noe ikke er som skal være.", 
     "08_blogg_desember_2018.txt",
-    "Blogg, Desember 2018", "08_blogg_desember_2018.jpg", "blog", null, true);
+    "Blogg, Desember 2018", "08_blogg_desember_2018.jpg", "blog", null, false);
     
     
     
@@ -170,7 +184,6 @@ $article_array[] = new ContentEntryClass(
     
 $article_array[] = new ContentEntryClass(
     "EtRentSinniEnRenKropp", "Et rent sinn i en ren kropp", "Din selvutvikling må inkludere kropp, sinn og følelser for å gi reelle resultater.", "null", "Publisert i tidsskriftet Mat og Helse", "17_artikkel_et_rent_sinn_i_en_ren_kropp.jpg", "pdf", "17_artikkel_et_rent_sinn_i_en_ren_kropp.pdf"); 
-    
     
     
 $article_array[] = new ContentEntryClass(

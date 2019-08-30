@@ -50,6 +50,8 @@
                 return "content/artikler/PDF/".$this->linkUrl;
 
                 case "link":
+                case "buybook":
+                default:
                 return $this->linkUrl;
             }
         }

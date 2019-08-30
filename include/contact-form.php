@@ -47,7 +47,7 @@ include "contact-form-handler.php";
                                         </div>
                                         </div>
                                 <div class="sc_form_item sc_form_button">
-                                    <input style="background-color:#72b5ca;width:70%;margin-left:0px;height:40px" type="SUBMIT" name="submit" placeholder="send" value="Meld meg på">
+                                    <input style="background-color:#72b5ca;width:70%;margin-left:0px;height:52px" type="SUBMIT" name="submit" placeholder="send" value="Meld meg på">
                                     
                                 </div>                                                            
                             </form>
