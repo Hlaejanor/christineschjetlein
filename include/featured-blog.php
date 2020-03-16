@@ -34,8 +34,8 @@
                                                         <div class="post_content isotope_item_content">
                                                             <div class="post_info">
                                                                 <span class="post_info_item post_info_posted"> 
-                                                                    <a href="#" class="post_info_date">
-                                                                    <p><?php echo $value->published; ?></p>
+                                                                    <a href="<?php echo $value->getLinkUrl();?>" class="post_info_date">
+                                                                        <p><?php echo $value->published; ?></p>
                                                                     </a>
                                                                 </span>
                                                                 

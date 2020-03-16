@@ -3,19 +3,36 @@ include 'contentEntryClass.php';
 $blog_array = [];
 
 $blog_array[] = new ContentEntryClass(
+    "AGrunnfestetEtHaå", 'Å grunnfeste et håp', 
+    "Hva om det det går bra? Hvordan vil du leve da? Hvis du ikke velger hvordan du vil leve NÅ, når vil du da velge det? I konteksten av uregjerlig vær og verdens vanskeligheter vil jeg minne om at det er faktisk en del som går bra, så gjelder det å se det og handle deretter.", 
+    "18_blogg_januar_2020.txt",
+    "Blogg, Januar 2020", "18_blogg_januar_2020.jpg", "blog", null, true);
+
+$blog_array[] = new ContentEntryClass(
+    "EgenKjaerlighetErModighet", 'Egen-kjærlighet er modighet', 
+    "Modighet er å møte deg selv fra eget hjerte. Vi heler bare i en parasympatisk tilstand, når egen-kjærligheten skaper trygghet og følelsen av at vi bryr oss om oss selv. Det kan læres og trenes opp.", 
+    "17_blogg_oktober_2019.txt",
+    "Blogg, Oktober 2019", "17_blogg_oktober_2019.jpg", "blog", null, true);
+
+$blog_array[] = new ContentEntryClass(
+    "SkjonnhetenOgUdyret", 'Skjønnheten og udyret', 
+    "When you regain a sense of your life as journey of discovery, you return to rhythm with yourself. When you take time to travel with reverence, a richer life unfolds before you. Moments of beauty begin to braid your days.", 
+    "16_blogg_september_2019.txt",
+    "Blogg, September 2019", "16_blogg_september_2019.jpg", "blog", null, true);
+
+
+$blog_array[] = new ContentEntryClass(
     "KlimaEndringerInnenfra", 'Klimaendringer innenfra', 
     "Om psykologi og økologi er fag på to forskjellige fakultet på universitet så er de i virkelighetens univers ett. Symptomer vi har i kropp og sinn, som i naturen, snakker til oss – vårt ansvar er å lytte dypere, føle og oppfatte sammenhengene bak. Hvis ikke vi lytter - hvem skal da ?", 
     "15_blogg_august_2019.txt",
-    "Blogg, August 2018", "15_blogg_august_2019.jpg", "blog", null, true);
-
-
+    "Blogg, August 2019", "15_blogg_august_2019.jpg", "blog", null, false);
 
 
 $blog_array[] = new ContentEntryClass(
     "PustForLivet", 'Pust for livet!', 
     "Pust forbinder bevissthet og kropp. Vil du nyte livet så pust! Oppmerksomhet på ditt åndedrett er en hovednøkkel til vitalitet, tilstedeværelse og livsglede.", 
     "12_blogg_mai_2019.txt",
-    "Blogg, Mai 2018", "12_blogg_mai_2019.jpg", "blog", null, true);
+    "Blogg, Mai 2019", "12_blogg_mai_2019.jpg", "blog", null, false);
 
 
 
@@ -23,7 +40,7 @@ $blog_array[] = new ContentEntryClass(
     "BitchenOgBuddhaen", '"Bitchen" og "Buddha\'n"', 
     "Om hvordan transformere indre motsetninger til mening og fornyelse.", 
     "11_blogg_april_2019.txt",
-    "Blogg, April 2018", "11_blogg_april_2019.jpg", "blog", null, true);
+    "Blogg, April 2019", "11_blogg_april_2019.jpg", "blog", null, false);
 
 
 $blog_array[] = new ContentEntryClass(
@@ -177,8 +194,8 @@ $article_array[] = new ContentEntryClass(
      "null", 
      "Noras Ark, 2005", 
      "16_artikkel_rik_som_fanten.jpg", 
-     "buybook",
-     "https://www.tanum.no/_rik-som-fanten-christine-schjetlein-aud-dalsegg-9788279790327"); 
+     "pdf",
+     "Rik_som_fanten.pdf"); 
     
     
     

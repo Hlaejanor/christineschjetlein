@@ -58,6 +58,7 @@ else{
                         <?php
                 foreach($blog_array_searched as $key=>$value){
                         ?>
+                       
                         <div class="isotope_item isotope_item_masonry isotope_item_masonry_2 isotope_column_2">
                         <div class="post_item post_item_masonry post_item_masonry_2 post_format_standard <?php echo $key % 2 == 0 ? 'even' : 'odd' ?> ">
                                     <div class="post_featured">
